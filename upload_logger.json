@@ -1,0 +1,54 @@
+[
+  {
+    "version": "20260427_001920",
+    "started_at": "2026-04-27 00:19:20",
+    "status": "failed",
+    "include_payment": true,
+    "publish_git": true,
+    "site_dir": "soilwater_auto_site\\site",
+    "finished_at": "2026-04-27 00:19:24",
+    "error": "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\dell\\\\AppData\\\\Local\\\\Temp\\\\codex-edge-admin-a4ca1mg9\\\\Default'"
+  },
+  {
+    "version": "20260427_001958",
+    "started_at": "2026-04-27 00:19:58",
+    "status": "failed",
+    "include_payment": true,
+    "publish_git": true,
+    "site_dir": "soilwater_auto_site\\site",
+    "finished_at": "2026-04-27 00:20:23",
+    "error": "Connection timed out"
+  },
+  {
+    "version": "20260427_002123",
+    "started_at": "2026-04-27 00:21:23",
+    "status": "failed",
+    "include_payment": true,
+    "publish_git": true,
+    "site_dir": "soilwater_auto_site\\site",
+    "finished_at": "2026-04-27 00:22:34",
+    "error": "CDP 连接失败：Connection timed out"
+  },
+  {
+    "version": "20260427_002405",
+    "started_at": "2026-04-27 00:24:05",
+    "status": "failed",
+    "include_payment": true,
+    "publish_git": true,
+    "site_dir": "soilwater_auto_site\\site",
+    "finished_at": "2026-04-27 00:24:09",
+    "error": "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\dell\\\\codex_edge_profiles'"
+  },
+  {
+    "version": "20260427_002506",
+    "started_at": "2026-04-27 00:25:08",
+    "finished_at": "2026-04-27 00:25:08",
+    "status": "simulated_from_existing_stats",
+    "include_payment": true,
+    "publish_git": true,
+    "site_dir": "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\site",
+    "stats_file": "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\统计\\2026-04-25-2220\\20260425222013论文导出_统计.xlsx",
+    "version_dir": "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\site\\versions\\20260427_002506",
+    "note": "Codex sandbox could not control Edge CDP; site/version/logger generation verified with existing stats."
+  }
+]
