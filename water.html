@@ -66,13 +66,13 @@
       const el = $(id);
       values.forEach(v => { const opt=document.createElement('option'); opt.value=v; opt.textContent=v; el.appendChild(opt); });
     }
-    function isPaid(row) { return val(row['缴费状态']).includes('已') || val(row['缴费状态']).includes('完成') || val(row['缴费状态']).includes('支付'); }
+    function isPaid(row) { return val(row.payment).includes('已') || val(row.payment).includes('完成') || val(row.payment).includes('支付'); }
     function renderCards(data) {
       const rows = data.speakers || [];
-      const oral = rows.filter(r => r['报告类型'] === '口头报告').length;
-      const poster = rows.filter(r => r['报告类型'] === '墙报').length;
+      const oral = rows.filter(r => r.report_type === '口头报告').length;
+      const poster = rows.filter(r => r.report_type === '墙报').length;
       const paid = rows.filter(isPaid).length;
-      const units = uniq((data.units || []).map(r=>r['单位'])).length;
+      const units = uniq((data.units || []).map(r=>r.institution)).length;
       $('cards').innerHTML = [
         ['报告总数', rows.length], ['口头报告', oral], ['墙报', poster], ['已缴费', paid], ['投稿单位', units]
       ].map(([k,v]) => `<div class="card"><b>${v}</b><span>${k}</span></div>`).join('');
@@ -81,33 +81,33 @@
       const q = val($('q').value).trim().toLowerCase();
       const filters = ['topic','type','identity'].reduce((o,id)=>(o[id]=$(id).value,o),{});
       return state.rows.filter(r => {
-        if (filters.topic && r['专题名称'] !== filters.topic) return false;
-        if (filters.type && r['报告类型'] !== filters.type) return false;
-        if (filters.identity && r['身份'] !== filters.identity) return false;
+        if (filters.topic && r.topic !== filters.topic) return false;
+        if (filters.type && r.report_type !== filters.type) return false;
+        if (filters.identity && r.identity !== filters.identity) return false;
         if (!q) return true;
-        return ['报告人','单位','报告题目','专题名称','身份','缴费状态'].some(k => val(r[k]).toLowerCase().includes(q));
+        return ['speaker','institution','title','topic','identity','payment'].some(k => val(r[k]).toLowerCase().includes(q));
       });
     }
     function renderTable() {
       const rows = filteredRows();
       $('resultCount').textContent = `${rows.length} 条报告`;
-      const cols = Object.keys(state.rows[0] || {}).filter(c => c !== '会议名称');
-      $('thead').innerHTML = `<tr>${cols.map(c=>`<th>${c}</th>`).join('')}</tr>`;
-      $('tbody').innerHTML = rows.map(r => `<tr>${cols.map(c=>`<td class="${c==='报告题目'?'title':''}">${val(r[c])}</td>`).join('')}</tr>`).join('');
+      const cols = state.data.speaker_columns || [];
+      $('thead').innerHTML = `<tr>${cols.map(c=>`<th>${c.label}</th>`).join('')}</tr>`;
+      $('tbody').innerHTML = rows.map(r => `<tr>${cols.map(c=>`<td class="${c.key==='title'?'title':''}">${val(r[c.key])}</td>`).join('')}</tr>`).join('');
     }
     function renderUnits(data) {
-      const rows = (data.units || []).slice().sort((a,b)=>(+b['总计']||0)-(+a['总计']||0));
-      const max = Math.max(1, ...rows.map(r=>+r['总计']||0));
-      $('units').innerHTML = rows.map(r=>`<div class="unit-row"><div>${r['单位']}<div class="bar"><div class="fill" style="width:${((+r['总计']||0)/max*100).toFixed(1)}%"></div></div></div><b>${r['总计']||0}</b></div>`).join('');
+      const rows = (data.units || []).slice().sort((a,b)=>(+b.total||0)-(+a.total||0));
+      const max = Math.max(1, ...rows.map(r=>+r.total||0));
+      $('units').innerHTML = rows.map(r=>`<div class="unit-row"><div>${r.institution}<div class="bar"><div class="fill" style="width:${((+r.total||0)/max*100).toFixed(1)}%"></div></div></div><b>${r.total||0}</b></div>`).join('');
     }
     fetch(DATA_FILE + '?t=' + Date.now()).then(r=>r.json()).then(data => {
       state.data = data; state.rows = data.speakers || [];
       $('siteTitle').textContent = data.meta.title;
       $('meta').textContent = `数据截止时间：${data.meta.generated_at} ｜ 来源：${data.meta.source_file} ｜ 已包含缴费状态`;
       renderCards(data);
-      fillSelect('topic', uniq(state.rows.map(r=>r['专题名称'])));
-      fillSelect('type', uniq(state.rows.map(r=>r['报告类型'])));
-      fillSelect('identity', uniq(state.rows.map(r=>r['身份'])));
+      fillSelect('topic', uniq(state.rows.map(r=>r.topic)));
+      fillSelect('type', uniq(state.rows.map(r=>r.report_type)));
+      fillSelect('identity', uniq(state.rows.map(r=>r.identity)));
       ['q','topic','type','identity'].forEach(id => $(id).addEventListener('input', renderTable));
       renderTable();
       renderUnits(data);
