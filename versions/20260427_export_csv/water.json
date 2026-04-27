@@ -1,28 +1,28 @@
 {
   "meta": {
     "title": "数字水圈论坛报告查询",
-    "generated_at": "2026-04-27 20:00",
-    "source_file": "20260427202750论文导出_统计.xlsx",
+    "generated_at": "2026-04-27 13:00",
+    "source_file": "20260427125109论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "数字水圈论坛"
   },
   "summary": [
     {
       "会议名称": "数字水圈论坛",
-      "口头报告": 36,
-      "墙报": 4
+      "口头报告": 34,
+      "墙报": 3
     }
   ],
   "topics": [
     {
       "会议名称": "数字水圈论坛",
       "会场名称": "地球水循环与全球变化",
-      "口头报告": 7,
+      "口头报告": 6,
       "墙报": 1,
       "Unnamed: 3": "",
       "Unnamed: 4": "",
       "图表标签": "地球水循环与全球变化",
-      "总计": 8
+      "总计": 7
     },
     {
       "会议名称": "数字水圈论坛",
@@ -47,12 +47,12 @@
     {
       "会议名称": "数字水圈论坛",
       "会场名称": "水环境安全与可持续发展",
-      "口头报告": 4,
+      "口头报告": 3,
       "墙报": 0,
       "Unnamed: 3": "",
       "Unnamed: 4": "",
       "图表标签": "水环境安全与可持续发展",
-      "总计": 4
+      "总计": 3
     },
     {
       "会议名称": "数字水圈论坛",
@@ -108,26 +108,14 @@
       "会议名称": "数字水圈论坛",
       "会场名称": "地球水圈大数据与人工智能",
       "口头报告": 4,
-      "墙报": 2,
+      "墙报": 1,
       "Unnamed: 3": "",
       "Unnamed: 4": "",
       "图表标签": "地球水圈大数据与人工智能",
-      "总计": 6
+      "总计": 5
     }
   ],
   "speakers": [
-    {
-      "meeting": "数字水圈论坛",
-      "topic": "地球水循环与全球变化",
-      "report_type_code": "oral",
-      "report_type_label": "口头报告",
-      "speaker": "吕阳昆",
-      "identity": "在读硕士",
-      "institution": "中国科学院青藏高原研究所",
-      "title": "基于GNSS观测的雅鲁藏布大峡谷大气可降水量产品的地形高程校正",
-      "payment": "已缴费",
-      "payment_paid": true
-    },
     {
       "meeting": "数字水圈论坛",
       "topic": "地球水循环与全球变化",
@@ -169,18 +157,6 @@
       "topic": "地球水循环与全球变化",
       "report_type_code": "oral",
       "report_type_label": "口头报告",
-      "speaker": "陈学龙",
-      "identity": "研究员",
-      "institution": "中国科学院青藏高原研究所",
-      "title": "北大西洋涛动对中东喜马拉雅山地夏季降水的影响",
-      "payment": "未缴费",
-      "payment_paid": false
-    },
-    {
-      "meeting": "数字水圈论坛",
-      "topic": "地球水循环与全球变化",
-      "report_type_code": "oral",
-      "report_type_label": "口头报告",
       "speaker": "李璐",
       "identity": "实验师",
       "institution": "三峡大学",
@@ -197,6 +173,18 @@
       "identity": "高级工程师",
       "institution": "中国科学院大气物理研究所",
       "title": "耦合河道流量观测约束降低雅鲁藏布江对流解析模拟不确定性",
+      "payment": "未缴费",
+      "payment_paid": false
+    },
+    {
+      "meeting": "数字水圈论坛",
+      "topic": "地球水循环与全球变化",
+      "report_type_code": "oral",
+      "report_type_label": "口头报告",
+      "speaker": "陈学龙",
+      "identity": "研究员",
+      "institution": "中国科学院青藏高原研究所",
+      "title": "北大西洋涛动对中东喜马拉雅山地夏季降水的影响",
       "payment": "未缴费",
       "payment_paid": false
     },
@@ -281,18 +269,6 @@
       "identity": "副研究员",
       "institution": "中国科学院地理科学与资源研究所",
       "title": "百年尺度全球陆地蒸散发演变规律",
-      "payment": "已缴费",
-      "payment_paid": true
-    },
-    {
-      "meeting": "数字水圈论坛",
-      "topic": "水环境安全与可持续发展",
-      "report_type_code": "oral",
-      "report_type_label": "口头报告",
-      "speaker": "熊俊峰",
-      "identity": "助理研究员",
-      "institution": "中国科学院南京地理与湖泊研究所",
-      "title": "浅水湖泊氮磷时空格局及生态系统响应",
       "payment": "已缴费",
       "payment_paid": true
     },
@@ -533,8 +509,8 @@
       "identity": "讲师",
       "institution": "空天信息大学",
       "title": "多维特征驱动的全球湖泊动态水深估算",
-      "payment": "已缴费",
-      "payment_paid": true
+      "payment": "未缴费",
+      "payment_paid": false
     },
     {
       "meeting": "数字水圈论坛",
@@ -577,18 +553,6 @@
       "topic": "地球水圈大数据与人工智能",
       "report_type_code": "poster",
       "report_type_label": "墙报",
-      "speaker": "汤冉",
-      "identity": "在读硕士",
-      "institution": "首都师范大学资源环境与旅游学院",
-      "title": "国家地下水监测工程地震监测潜力分析",
-      "payment": "未缴费",
-      "payment_paid": false
-    },
-    {
-      "meeting": "数字水圈论坛",
-      "topic": "地球水圈大数据与人工智能",
-      "report_type_code": "poster",
-      "report_type_label": "墙报",
       "speaker": "廖佩萱",
       "identity": "在读硕士",
       "institution": "中国科学院空天信息创新研究院",
@@ -614,9 +578,9 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "中国科学院青藏高原研究所",
-      "oral": 2,
-      "poster": 1,
+      "institution": "中国科学院大气物理研究所",
+      "oral": 3,
+      "poster": 0,
       "total": 3
     },
     {
@@ -628,10 +592,10 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "中国科学院大气物理研究所",
-      "oral": 3,
-      "poster": 0,
-      "total": 3
+      "institution": "中国科学院青藏高原研究所",
+      "oral": 1,
+      "poster": 1,
+      "total": 2
     },
     {
       "meeting": "数字水圈论坛",
@@ -639,20 +603,6 @@
       "oral": 2,
       "poster": 0,
       "total": 2
-    },
-    {
-      "meeting": "数字水圈论坛",
-      "institution": "中国科学院南京地理与湖泊研究所",
-      "oral": 2,
-      "poster": 0,
-      "total": 2
-    },
-    {
-      "meeting": "数字水圈论坛",
-      "institution": "中国水利水电科学研究院",
-      "oral": 1,
-      "poster": 0,
-      "total": 1
     },
     {
       "meeting": "数字水圈论坛",
@@ -670,7 +620,21 @@
     },
     {
       "meeting": "数字水圈论坛",
+      "institution": "中国水利水电科学研究院",
+      "oral": 1,
+      "poster": 0,
+      "total": 1
+    },
+    {
+      "meeting": "数字水圈论坛",
       "institution": "三峡大学",
+      "oral": 1,
+      "poster": 0,
+      "total": 1
+    },
+    {
+      "meeting": "数字水圈论坛",
+      "institution": "中国科学院南京地理与湖泊研究所",
       "oral": 1,
       "poster": 0,
       "total": 1
@@ -684,6 +648,13 @@
     },
     {
       "meeting": "数字水圈论坛",
+      "institution": "北京师范大学",
+      "oral": 1,
+      "poster": 0,
+      "total": 1
+    },
+    {
+      "meeting": "数字水圈论坛",
       "institution": "北京工业大学",
       "oral": 1,
       "poster": 0,
@@ -691,16 +662,9 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "南京大学",
-      "oral": 1,
-      "poster": 0,
-      "total": 1
-    },
-    {
-      "meeting": "数字水圈论坛",
-      "institution": "北京师范大学",
-      "oral": 1,
-      "poster": 0,
+      "institution": "南京大学大气科学学院",
+      "oral": 0,
+      "poster": 1,
       "total": 1
     },
     {
@@ -719,6 +683,13 @@
     },
     {
       "meeting": "数字水圈论坛",
+      "institution": "南京大学",
+      "oral": 1,
+      "poster": 0,
+      "total": 1
+    },
+    {
+      "meeting": "数字水圈论坛",
       "institution": "天津师范大学",
       "oral": 1,
       "poster": 0,
@@ -726,14 +697,14 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "南京大学大气科学学院",
-      "oral": 0,
-      "poster": 1,
+      "institution": "广州大学",
+      "oral": 1,
+      "poster": 0,
       "total": 1
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "广州大学",
+      "institution": "河北工程大学水利水电学院",
       "oral": 1,
       "poster": 0,
       "total": 1
@@ -748,13 +719,6 @@
     {
       "meeting": "数字水圈论坛",
       "institution": "河海大学",
-      "oral": 1,
-      "poster": 0,
-      "total": 1
-    },
-    {
-      "meeting": "数字水圈论坛",
-      "institution": "河北工程大学水利水电学院",
       "oral": 1,
       "poster": 0,
       "total": 1
@@ -779,29 +743,15 @@
       "oral": 1,
       "poster": 0,
       "total": 1
-    },
-    {
-      "meeting": "数字水圈论坛",
-      "institution": "首都师范大学资源环境与旅游学院",
-      "oral": 0,
-      "poster": 1,
-      "total": 1
     }
   ],
   "sessions": [
     {
       "meeting": "数字水圈论坛",
       "name": "地球水循环与全球变化",
-      "oral": 7,
+      "oral": 6,
       "poster": 1,
-      "total": 8
-    },
-    {
-      "meeting": "数字水圈论坛",
-      "name": "地球水圈大数据与人工智能",
-      "oral": 4,
-      "poster": 2,
-      "total": 6
+      "total": 7
     },
     {
       "meeting": "数字水圈论坛",
@@ -809,6 +759,13 @@
       "oral": 6,
       "poster": 0,
       "total": 6
+    },
+    {
+      "meeting": "数字水圈论坛",
+      "name": "地球水圈大数据与人工智能",
+      "oral": 4,
+      "poster": 1,
+      "total": 5
     },
     {
       "meeting": "数字水圈论坛",
@@ -826,14 +783,14 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "name": "水环境安全与可持续发展",
-      "oral": 4,
+      "name": "冰雪水文遥感与前沿技术",
+      "oral": 3,
       "poster": 0,
-      "total": 4
+      "total": 3
     },
     {
       "meeting": "数字水圈论坛",
-      "name": "冰雪水文遥感与前沿技术",
+      "name": "水环境安全与可持续发展",
       "oral": 3,
       "poster": 0,
       "total": 3

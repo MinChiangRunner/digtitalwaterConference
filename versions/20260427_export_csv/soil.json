@@ -1,16 +1,16 @@
 {
   "meta": {
     "title": "土壤水研究大会报告查询",
-    "generated_at": "2026-04-27 20:00",
-    "source_file": "20260427202750论文导出_统计.xlsx",
+    "generated_at": "2026-04-27 13:00",
+    "source_file": "20260427125109论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "土壤水研究大会"
   },
   "summary": [
     {
       "会议名称": "土壤水研究大会",
-      "口头报告": 54,
-      "墙报": 9
+      "口头报告": 49,
+      "墙报": 7
     }
   ],
   "topics": [
@@ -37,32 +37,32 @@
     {
       "会议名称": "土壤水研究大会",
       "会场名称": "土壤水过程模拟与数据同化",
-      "口头报告": 9,
+      "口头报告": 7,
       "墙报": 1,
       "Unnamed: 3": "",
       "Unnamed: 4": "",
       "图表标签": "土壤水过程模拟与数据同化",
-      "总计": 10
+      "总计": 8
     },
     {
       "会议名称": "土壤水研究大会",
       "会场名称": "土壤水数据融合与智能应用",
       "口头报告": 7,
-      "墙报": 3,
+      "墙报": 2,
       "Unnamed: 3": "",
       "Unnamed: 4": "",
       "图表标签": "土壤水数据融合与智能应用",
-      "总计": 10
+      "总计": 9
     },
     {
       "会议名称": "土壤水研究大会",
       "会场名称": "土壤水灾害与气候变化",
-      "口头报告": 5,
+      "口头报告": 3,
       "墙报": 0,
       "Unnamed: 3": "",
       "Unnamed: 4": "",
       "图表标签": "土壤水灾害与气候变化",
-      "总计": 5
+      "总计": 3
     },
     {
       "会议名称": "土壤水研究大会",
@@ -88,21 +88,21 @@
       "会议名称": "土壤水研究大会",
       "会场名称": "水土耦合与生态系统服务",
       "口头报告": 2,
-      "墙报": 1,
+      "墙报": 0,
       "Unnamed: 3": "",
       "Unnamed: 4": "",
       "图表标签": "水土耦合与生态系统服务",
-      "总计": 3
+      "总计": 2
     },
     {
       "会议名称": "土壤水研究大会",
       "会场名称": "人工智能与智慧土壤前沿",
-      "口头报告": 6,
+      "口头报告": 5,
       "墙报": 1,
       "Unnamed: 3": "",
       "Unnamed: 4": "",
       "图表标签": "人工智能与智慧土壤前沿",
-      "总计": 7
+      "总计": 6
     }
   ],
   "speakers": [
@@ -399,30 +399,6 @@
       "topic": "土壤水过程模拟与数据同化",
       "report_type_code": "oral",
       "report_type_label": "口头报告",
-      "speaker": "张佩",
-      "identity": "",
-      "institution": "中国科学院青藏高原研究所",
-      "title": "青藏高原多层土壤温湿度动态及卫星-模式同化评估",
-      "payment": "已缴费",
-      "payment_paid": true
-    },
-    {
-      "meeting": "土壤水研究大会",
-      "topic": "土壤水过程模拟与数据同化",
-      "report_type_code": "oral",
-      "report_type_label": "口头报告",
-      "speaker": "董建志",
-      "identity": "教授",
-      "institution": "天津大学",
-      "title": "AI大模型支持下的陆-气耦合模拟与热浪预测",
-      "payment": "已缴费",
-      "payment_paid": true
-    },
-    {
-      "meeting": "土壤水研究大会",
-      "topic": "土壤水过程模拟与数据同化",
-      "report_type_code": "oral",
-      "report_type_label": "口头报告",
       "speaker": "卢麾",
       "identity": "教授",
       "institution": "清华大学",
@@ -523,8 +499,8 @@
       "identity": "副教授",
       "institution": "江汉大学",
       "title": "超分辨率重建：全球公里级分辨率土壤水分监测的新路径",
-      "payment": "已缴费",
-      "payment_paid": true
+      "payment": "未缴费",
+      "payment_paid": false
     },
     {
       "meeting": "土壤水研究大会",
@@ -603,18 +579,6 @@
       "topic": "土壤水数据融合与智能应用",
       "report_type_code": "poster",
       "report_type_label": "墙报",
-      "speaker": "许仁炯",
-      "identity": "在读硕士",
-      "institution": "江汉大学",
-      "title": "融合注意力机制与部分卷积神经网络的FY-3B逐日时空无缝重建",
-      "payment": "已缴费",
-      "payment_paid": true
-    },
-    {
-      "meeting": "土壤水研究大会",
-      "topic": "土壤水数据融合与智能应用",
-      "report_type_code": "poster",
-      "report_type_label": "墙报",
       "speaker": "王蕴佳",
       "identity": "在读博士",
       "institution": "中国矿业大学（北京）",
@@ -631,30 +595,6 @@
       "identity": "在读硕士",
       "institution": "中国矿业大学(北京)",
       "title": "T-ACD: A topography-aware change detection method for mapping high-resolution soil moisture with time-series SAR",
-      "payment": "已缴费",
-      "payment_paid": true
-    },
-    {
-      "meeting": "土壤水研究大会",
-      "topic": "土壤水灾害与气候变化",
-      "report_type_code": "oral",
-      "report_type_label": "口头报告",
-      "speaker": "张尧",
-      "identity": "研究员",
-      "institution": "北京大学",
-      "title": "全球变化下干旱变化特征及其生态影响",
-      "payment": "未缴费",
-      "payment_paid": false
-    },
-    {
-      "meeting": "土壤水研究大会",
-      "topic": "土壤水灾害与气候变化",
-      "report_type_code": "oral",
-      "report_type_label": "口头报告",
-      "speaker": "张翔",
-      "identity": "学术副主任",
-      "institution": "中国地质大学（武汉）",
-      "title": "基于多层土壤水分数据的根区生长自适应农业干旱指数DRDI",
       "payment": "已缴费",
       "payment_paid": true
     },
@@ -768,30 +708,6 @@
     },
     {
       "meeting": "土壤水研究大会",
-      "topic": "水土耦合与生态系统服务",
-      "report_type_code": "poster",
-      "report_type_label": "墙报",
-      "speaker": "杨敏",
-      "identity": "助理研究员",
-      "institution": "Northwest Agriculture and Forestry University",
-      "title": "Deep soil drying increases dryland apple tree’s eco-physiological sensitivity to atmospheric drought",
-      "payment": "已缴费",
-      "payment_paid": true
-    },
-    {
-      "meeting": "土壤水研究大会",
-      "topic": "人工智能与智慧土壤前沿",
-      "report_type_code": "oral",
-      "report_type_label": "口头报告",
-      "speaker": "孙文烨",
-      "identity": "在读博士",
-      "institution": "中山大学",
-      "title": "用于陆面模式的土壤背景反照率分布图",
-      "payment": "未缴费",
-      "payment_paid": false
-    },
-    {
-      "meeting": "土壤水研究大会",
       "topic": "人工智能与智慧土壤前沿",
       "report_type_code": "oral",
       "report_type_label": "口头报告",
@@ -831,10 +747,10 @@
       "topic": "人工智能与智慧土壤前沿",
       "report_type_code": "oral",
       "report_type_label": "口头报告",
-      "speaker": "李骐宇",
-      "identity": "在读硕士",
+      "speaker": "张程",
+      "identity": "",
       "institution": "长春师范大学",
-      "title": "RAPL：A High-Fidelity Residual-Attention Surrogate Enabling Cross-Forcing Generalization of Differentiable Parameter Learning for Land Surface Models",
+      "title": "Soil hydraulic pedotransfer functions for estimating saturated hydraulic  conductivity: a deep symbolic regression approach with mean  shift clustering",
       "payment": "已缴费",
       "payment_paid": true
     },
@@ -843,10 +759,10 @@
       "topic": "人工智能与智慧土壤前沿",
       "report_type_code": "oral",
       "report_type_label": "口头报告",
-      "speaker": "张程",
-      "identity": "",
+      "speaker": "李骐宇",
+      "identity": "在读硕士",
       "institution": "长春师范大学",
-      "title": "Soil hydraulic pedotransfer functions for estimating saturated hydraulic  conductivity: a deep symbolic regression approach with mean  shift clustering",
+      "title": "RAPL：A High-Fidelity Residual-Attention Surrogate Enabling Cross-Forcing Generalization of Differentiable Parameter Learning for Land Surface Models",
       "payment": "已缴费",
       "payment_paid": true
     },
@@ -887,6 +803,13 @@
     },
     {
       "meeting": "土壤水研究大会",
+      "institution": "河海大学",
+      "oral": 3,
+      "poster": 0,
+      "total": 3
+    },
+    {
+      "meeting": "土壤水研究大会",
       "institution": "清华大学",
       "oral": 3,
       "poster": 0,
@@ -901,14 +824,21 @@
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "河海大学",
-      "oral": 3,
+      "institution": "中国科学院空天信息创新研究院",
+      "oral": 2,
       "poster": 0,
-      "total": 3
+      "total": 2
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "中国科学院空天信息创新研究院",
+      "institution": "武汉大学",
+      "oral": 2,
+      "poster": 0,
+      "total": 2
+    },
+    {
+      "meeting": "土壤水研究大会",
+      "institution": "中国科学院西北生态环境资源研究院",
       "oral": 2,
       "poster": 0,
       "total": 2
@@ -922,63 +852,7 @@
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "天津大学",
-      "oral": 2,
-      "poster": 0,
-      "total": 2
-    },
-    {
-      "meeting": "土壤水研究大会",
-      "institution": "江汉大学",
-      "oral": 1,
-      "poster": 1,
-      "total": 2
-    },
-    {
-      "meeting": "土壤水研究大会",
-      "institution": "武汉大学",
-      "oral": 2,
-      "poster": 0,
-      "total": 2
-    },
-    {
-      "meeting": "土壤水研究大会",
-      "institution": "中山大学",
-      "oral": 1,
-      "poster": 1,
-      "total": 2
-    },
-    {
-      "meeting": "土壤水研究大会",
-      "institution": "中国科学院西北生态环境资源研究院",
-      "oral": 2,
-      "poster": 0,
-      "total": 2
-    },
-    {
-      "meeting": "土壤水研究大会",
-      "institution": "NorthwestAgricultureandForestryUniversity",
-      "oral": 0,
-      "poster": 1,
-      "total": 1
-    },
-    {
-      "meeting": "土壤水研究大会",
-      "institution": "中国地质大学（武汉）",
-      "oral": 1,
-      "poster": 0,
-      "total": 1
-    },
-    {
-      "meeting": "土壤水研究大会",
-      "institution": "中国科学院南京土壤研究所",
-      "oral": 1,
-      "poster": 0,
-      "total": 1
-    },
-    {
-      "meeting": "土壤水研究大会",
-      "institution": "中国科学院东北地理与农业生态研究所",
+      "institution": "中国气象局地球系统数值预报中心",
       "oral": 1,
       "poster": 0,
       "total": 1
@@ -992,20 +866,6 @@
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "中国气象局地球系统数值预报中心",
-      "oral": 1,
-      "poster": 0,
-      "total": 1
-    },
-    {
-      "meeting": "土壤水研究大会",
-      "institution": "北京大学",
-      "oral": 1,
-      "poster": 0,
-      "total": 1
-    },
-    {
-      "meeting": "土壤水研究大会",
       "institution": "内蒙古师范大学",
       "oral": 0,
       "poster": 1,
@@ -1013,7 +873,14 @@
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "中国科学院青藏高原研究所",
+      "institution": "南京信息工程大学",
+      "oral": 1,
+      "poster": 0,
+      "total": 1
+    },
+    {
+      "meeting": "土壤水研究大会",
+      "institution": "兰州大学",
       "oral": 1,
       "poster": 0,
       "total": 1
@@ -1021,6 +888,27 @@
     {
       "meeting": "土壤水研究大会",
       "institution": "中国科学院地理科学与资源研究所",
+      "oral": 1,
+      "poster": 0,
+      "total": 1
+    },
+    {
+      "meeting": "土壤水研究大会",
+      "institution": "中山大学",
+      "oral": 0,
+      "poster": 1,
+      "total": 1
+    },
+    {
+      "meeting": "土壤水研究大会",
+      "institution": "中国科学院南京土壤研究所",
+      "oral": 1,
+      "poster": 0,
+      "total": 1
+    },
+    {
+      "meeting": "土壤水研究大会",
+      "institution": "中国科学院东北地理与农业生态研究所",
       "oral": 1,
       "poster": 0,
       "total": 1
@@ -1048,6 +936,13 @@
     },
     {
       "meeting": "土壤水研究大会",
+      "institution": "天津大学",
+      "oral": 1,
+      "poster": 0,
+      "total": 1
+    },
+    {
+      "meeting": "土壤水研究大会",
       "institution": "国家气象信息中心",
       "oral": 1,
       "poster": 0,
@@ -1055,14 +950,7 @@
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "南京信息工程大学",
-      "oral": 1,
-      "poster": 0,
-      "total": 1
-    },
-    {
-      "meeting": "土壤水研究大会",
-      "institution": "兰州大学",
+      "institution": "江汉大学",
       "oral": 1,
       "poster": 0,
       "total": 1
@@ -1157,35 +1045,28 @@
       "meeting": "土壤水研究大会",
       "name": "土壤水数据融合与智能应用",
       "oral": 7,
-      "poster": 3,
-      "total": 10
+      "poster": 2,
+      "total": 9
     },
     {
       "meeting": "土壤水研究大会",
       "name": "土壤水过程模拟与数据同化",
-      "oral": 9,
+      "oral": 7,
       "poster": 1,
-      "total": 10
+      "total": 8
     },
     {
       "meeting": "土壤水研究大会",
       "name": "人工智能与智慧土壤前沿",
-      "oral": 6,
+      "oral": 5,
       "poster": 1,
-      "total": 7
+      "total": 6
     },
     {
       "meeting": "土壤水研究大会",
       "name": "土壤水灾害与气候变化",
-      "oral": 5,
+      "oral": 3,
       "poster": 0,
-      "total": 5
-    },
-    {
-      "meeting": "土壤水研究大会",
-      "name": "水土耦合与生态系统服务",
-      "oral": 2,
-      "poster": 1,
       "total": 3
     },
     {
@@ -1200,6 +1081,13 @@
       "name": "土壤水调控与节水灌溉",
       "oral": 1,
       "poster": 1,
+      "total": 2
+    },
+    {
+      "meeting": "土壤水研究大会",
+      "name": "水土耦合与生态系统服务",
+      "oral": 2,
+      "poster": 0,
       "total": 2
     }
   ],
