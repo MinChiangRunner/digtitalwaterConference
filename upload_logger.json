@@ -167,5 +167,77 @@
       "message": "Update conference site 20260427_080628"
     },
     "error": "fatal: unable to access 'https://github.com/MinChiangRunner/digtitalwaterConference.git/': Failed to connect to github.com port 443 after 21089 ms: Could not connect to server\n"
+  },
+  {
+    "version": "20260427_101136",
+    "started_at": "2026-04-27 10:11:36",
+    "status": "success",
+    "include_payment": true,
+    "publish_git": true,
+    "site_dir": "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\site",
+    "downloads": [
+      "C:\\Users\\dell\\Downloads\\20260427101210论文导出.xlsx",
+      "C:\\Users\\dell\\Downloads\\20260427101202参会人员导出.csv",
+      "C:\\Users\\dell\\Downloads\\20260427101217会议费订单导出.xlsx"
+    ],
+    "archive_dir": "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\统计\\2026-04-27-1012",
+    "stats_file": "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\统计\\2026-04-27-1012\\20260427101210论文导出_统计.xlsx",
+    "showcase_outputs": [
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\统计\\2026-04-27-1012\\20260427101210论文导出_统计_展示版.xlsx",
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\统计\\2026-04-27-1012\\20260427101210论文导出_统计_微信群总览.png",
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\统计\\2026-04-27-1012\\20260427101210论文导出_统计_数字水圈论坛_单位投稿排行.png",
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\统计\\2026-04-27-1012\\20260427101210论文导出_统计_土壤水研究大会_单位投稿排行.png",
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\统计\\2026-04-27-1012\\20260427101210论文导出_统计_数字水圈论坛_微信总览与报告人_101221.png",
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\统计\\2026-04-27-1012\\20260427101210论文导出_统计_土壤水研究大会_微信总览与报告人_101221.png"
+    ],
+    "site_outputs": [
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\site\\index.html",
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\site\\data.json",
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\site\\soil.html",
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\site\\soil.json",
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\site\\water.html",
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\site\\water.json",
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\site\\assets\\20260427101210论文导出_统计_微信群总览.png",
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\site\\assets\\20260427101210论文导出_统计_数字水圈论坛_单位投稿排行.png",
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\site\\assets\\20260427101210论文导出_统计_土壤水研究大会_单位投稿排行.png",
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\site\\assets\\20260427101210论文导出_统计_数字水圈论坛_微信总览与报告人_101221.png",
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\site\\assets\\20260427101210论文导出_统计_土壤水研究大会_微信总览与报告人_101221.png",
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\site\\versions\\20260427_101136\\index.html",
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\site\\versions\\20260427_101136\\data.json",
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\site\\versions\\20260427_101136\\soil.html",
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\site\\versions\\20260427_101136\\soil.json",
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\site\\versions\\20260427_101136\\water.html",
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\site\\versions\\20260427_101136\\water.json",
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\site\\versions\\20260427_101136\\assets\\20260425222013论文导出_统计_土壤水研究大会_单位投稿排行.png",
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\site\\versions\\20260427_101136\\assets\\20260425222013论文导出_统计_土壤水研究大会_微信总览与报告人_123652.png",
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\site\\versions\\20260427_101136\\assets\\20260425222013论文导出_统计_微信群总览.png",
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\site\\versions\\20260427_101136\\assets\\20260425222013论文导出_统计_数字水圈论坛_单位投稿排行.png",
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\site\\versions\\20260427_101136\\assets\\20260425222013论文导出_统计_数字水圈论坛_微信总览与报告人_123652.png",
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\site\\versions\\20260427_101136\\assets\\20260427080648论文导出_统计_土壤水研究大会_单位投稿排行.png",
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\site\\versions\\20260427_101136\\assets\\20260427080648论文导出_统计_土壤水研究大会_微信总览与报告人_080658.png",
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\site\\versions\\20260427_101136\\assets\\20260427080648论文导出_统计_微信群总览.png",
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\site\\versions\\20260427_101136\\assets\\20260427080648论文导出_统计_数字水圈论坛_单位投稿排行.png",
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\site\\versions\\20260427_101136\\assets\\20260427080648论文导出_统计_数字水圈论坛_微信总览与报告人_080658.png",
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\site\\versions\\20260427_101136\\assets\\20260427101210论文导出_统计_土壤水研究大会_单位投稿排行.png",
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\site\\versions\\20260427_101136\\assets\\20260427101210论文导出_统计_土壤水研究大会_微信总览与报告人_101221.png",
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\site\\versions\\20260427_101136\\assets\\20260427101210论文导出_统计_微信群总览.png",
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\site\\versions\\20260427_101136\\assets\\20260427101210论文导出_统计_数字水圈论坛_单位投稿排行.png",
+      "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\site\\versions\\20260427_101136\\assets\\20260427101210论文导出_统计_数字水圈论坛_微信总览与报告人_101221.png"
+    ],
+    "version_dir": "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\site\\versions\\20260427_101136",
+    "finished_at": "2026-04-27 10:12:23",
+    "git": {
+      "commit": "2066571",
+      "message": "Update conference site 20260427_101136",
+      "status": "pushed",
+      "attempts": 2,
+      "history": [
+        {
+          "attempt": 1,
+          "time": "2026-04-27 10:12:29",
+          "error": "fatal: unable to access 'https://github.com/MinChiangRunner/digtitalwaterConference.git/': schannel: failed to receive handshake, SSL/TLS connection failed"
+        }
+      ]
+    }
   }
 ]
