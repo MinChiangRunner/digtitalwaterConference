@@ -1,16 +1,16 @@
 {
   "meta": {
     "title": "数字水圈论坛报告查询",
-    "generated_at": "2026-05-08 08:00",
-    "source_file": "20260508082655论文导出_统计.xlsx",
+    "generated_at": "2026-05-08 11:00",
+    "source_file": "20260508110020论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "数字水圈论坛"
   },
   "summary": [
     {
       "会议名称": "数字水圈论坛",
-      "口头报告": 105,
-      "墙报": 11
+      "口头报告": 106,
+      "墙报": 12
     }
   ],
   "topics": [
@@ -28,11 +28,11 @@
       "会议名称": "数字水圈论坛",
       "会场名称": "水文过程与水资源韧性",
       "口头报告": 12,
-      "墙报": 1,
+      "墙报": 2,
       "Unnamed: 3": "",
       "Unnamed: 4": "",
       "图表标签": "水文过程与水资源韧性",
-      "总计": 13
+      "总计": 14
     },
     {
       "会议名称": "数字水圈论坛",
@@ -57,12 +57,12 @@
     {
       "会议名称": "数字水圈论坛",
       "会场名称": "水灾害风险与极端事件",
-      "口头报告": 9,
+      "口头报告": 10,
       "墙报": 3,
       "Unnamed: 3": "",
       "Unnamed: 4": "",
       "图表标签": "水灾害风险与极端事件",
-      "总计": 12
+      "总计": 13
     },
     {
       "会议名称": "数字水圈论坛",
@@ -457,13 +457,13 @@
     {
       "meeting": "数字水圈论坛",
       "topic": "水文过程与水资源韧性",
-      "paper_no": "119-014",
+      "paper_no": "119-015",
       "report_type_code": "oral",
       "report_type_label": "口头报告",
-      "speaker": "王云霏",
-      "identity": "副教授",
-      "institution": "郑州大学水利与交通学院",
-      "title": "日光诱导叶绿素荧光驱动的生态水文过程机理建模与应用",
+      "speaker": "刘少达",
+      "identity": "研究员",
+      "institution": "北京师范大学",
+      "title": "The importance of hydrology in routing terrestrial carbon to the atmosphere via global streams and rivers",
       "payment": "未缴费",
       "payment_paid": false
     },
@@ -477,6 +477,19 @@
       "identity": "在读硕士",
       "institution": "河南理工大学",
       "title": "三江源区水体面积对气候变化的响应及驱动因素分析",
+      "payment": "未缴费",
+      "payment_paid": false
+    },
+    {
+      "meeting": "数字水圈论坛",
+      "topic": "水文过程与水资源韧性",
+      "paper_no": "119-014",
+      "report_type_code": "poster",
+      "report_type_label": "墙报",
+      "speaker": "王云霏",
+      "identity": "副教授",
+      "institution": "郑州大学水利与交通学院",
+      "title": "日光诱导叶绿素荧光驱动的生态水文过程机理建模与应用",
       "payment": "未缴费",
       "payment_paid": false
     },
@@ -789,6 +802,19 @@
       "identity": "在读博士",
       "institution": "中国科学院大气物理研究所",
       "title": "考虑灌溉影响的全球陆面水文模型研发",
+      "payment": "未缴费",
+      "payment_paid": false
+    },
+    {
+      "meeting": "数字水圈论坛",
+      "topic": "水灾害风险与极端事件",
+      "paper_no": "123-015",
+      "report_type_code": "oral",
+      "report_type_label": "口头报告",
+      "speaker": "林青霞",
+      "identity": "副教授",
+      "institution": "三峡大学",
+      "title": "基于事件尺度的干旱传递判别与分异模式研究",
       "payment": "未缴费",
       "payment_paid": false
     },
@@ -1649,16 +1675,16 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "中国科学院地理科学与资源研究所",
+      "institution": "北京师范大学",
       "oral": 6,
-      "poster": 0,
-      "total": 6
+      "poster": 1,
+      "total": 7
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "北京师范大学",
-      "oral": 5,
-      "poster": 1,
+      "institution": "中国科学院地理科学与资源研究所",
+      "oral": 6,
+      "poster": 0,
       "total": 6
     },
     {
@@ -1726,7 +1752,7 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "四川大学",
+      "institution": "中国矿业大学（北京）",
       "oral": 2,
       "poster": 0,
       "total": 2
@@ -1747,7 +1773,7 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "中国矿业大学（北京）",
+      "institution": "三峡大学",
       "oral": 2,
       "poster": 0,
       "total": 2
@@ -1782,10 +1808,10 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "三峡大学",
-      "oral": 1,
+      "institution": "四川大学",
+      "oral": 2,
       "poster": 0,
-      "total": 1
+      "total": 2
     },
     {
       "meeting": "数字水圈论坛",
@@ -2014,8 +2040,8 @@
     {
       "meeting": "数字水圈论坛",
       "institution": "郑州大学水利与交通学院",
-      "oral": 1,
-      "poster": 0,
+      "oral": 0,
+      "poster": 1,
       "total": 1
     },
     {
@@ -2059,15 +2085,15 @@
       "meeting": "数字水圈论坛",
       "name": "水文过程与水资源韧性",
       "oral": 12,
-      "poster": 1,
-      "total": 13
+      "poster": 2,
+      "total": 14
     },
     {
       "meeting": "数字水圈论坛",
       "name": "水灾害风险与极端事件",
-      "oral": 9,
+      "oral": 10,
       "poster": 3,
-      "total": 12
+      "total": 13
     },
     {
       "meeting": "数字水圈论坛",
