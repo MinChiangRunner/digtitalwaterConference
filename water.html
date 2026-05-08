@@ -17,7 +17,7 @@
     .card { background:#fff; border:1px solid var(--line); border-radius:8px; padding:16px 18px; box-shadow:0 10px 28px rgba(15,23,42,.06); }
     .card b { display:block; font-size:30px; margin-bottom:4px; color:var(--blue); }
     .card span { color:var(--muted); font-size:14px; }
-    .toolbar { display:grid; grid-template-columns:2fr repeat(3,1fr); gap:10px; margin:8px 0 14px; }
+    .toolbar { display:grid; grid-template-columns:2fr repeat(4,1fr); gap:10px; margin:8px 0 14px; }
     input, select { width:100%; height:42px; border:1px solid var(--line); border-radius:6px; padding:0 12px; background:#fff; color:var(--ink); font-size:15px; }
     .layout { display:block; margin-top:14px; }
     .section-label { display:flex; align-items:center; justify-content:space-between; gap:14px; margin:18px 0 10px; color:var(--muted); font-size:14px; }
@@ -29,12 +29,13 @@
     .table-wrap { width:100%; overflow:visible; border-radius:8px; box-shadow:0 10px 28px rgba(15,23,42,.06); }
     table { width:100%; table-layout:fixed; border-collapse:collapse; background:#fff; border:1px solid var(--line); border-radius:8px; overflow:hidden; }
     col.col-topic { width:13%; }
-    col.col-paper-no { width:8%; }
+    col.col-paper-no { width:7%; }
+    col.col-upload-date { width:9%; }
     col.col-report-type { width:8%; }
-    col.col-speaker { width:8%; }
-    col.col-identity { width:8%; }
-    col.col-institution { width:17%; }
-    col.col-title { width:29%; }
+    col.col-speaker { width:7%; }
+    col.col-identity { width:7%; }
+    col.col-institution { width:16%; }
+    col.col-title { width:24%; }
     col.col-payment { width:9%; }
     th, td { padding:9px 10px; border-bottom:1px solid #edf3f9; text-align:left; vertical-align:top; font-size:13px; line-height:1.45; overflow-wrap:anywhere; word-break:break-word; }
     th { background:#0f2a4a; color:#fff; position:static; z-index:auto; }
@@ -77,8 +78,9 @@
       <div class="unit-grid" id="units"></div>
     </section>
     <section class="toolbar">
-      <input id="q" placeholder="搜索报告人、单位、题目、专题、论文编号、缴费状态" />
+      <input id="q" placeholder="搜索报告人、单位、题目、专题、论文编号、上传时间、缴费状态" />
       <select id="topic"><option value="">全部专题</option></select>
+      <select id="uploadDate"><option value="">全部日期</option></select>
       <select id="type"><option value="">全部报告类型</option></select>
       <select id="identity"><option value="">全部身份</option></select>
     </section>
@@ -89,6 +91,7 @@
           <colgroup>
             <col class="col-topic">
             <col class="col-paper-no">
+            <col class="col-upload-date">
             <col class="col-report-type">
             <col class="col-speaker">
             <col class="col-identity">
@@ -100,6 +103,7 @@
             <tr>
               <th>专题名称</th>
               <th>论文编号</th>
+              <th>上传时间</th>
               <th>报告类型</th>
               <th>报告人</th>
               <th>身份</th>
@@ -145,13 +149,14 @@
     }
     function filteredRows() {
       const q = val($('q').value).trim().toLowerCase();
-      const filters = ['topic','type','identity'].reduce((o,id)=>(o[id]=$(id).value,o),{});
+      const filters = ['topic','uploadDate','type','identity'].reduce((o,id)=>(o[id]=$(id).value,o),{});
       return state.rows.filter(r => {
         if (filters.topic && r.topic !== filters.topic) return false;
+        if (filters.uploadDate && r.upload_date !== filters.uploadDate) return false;
         if (filters.type && r.report_type_code !== filters.type) return false;
         if (filters.identity && r.identity !== filters.identity) return false;
         if (!q) return true;
-        return ['speaker','institution','title','topic','paper_no','identity','payment'].some(k => val(r[k]).toLowerCase().includes(q));
+        return ['speaker','institution','title','topic','paper_no','upload_date','identity','payment'].some(k => val(r[k]).toLowerCase().includes(q));
       });
     }
     function renderTable() {
@@ -216,6 +221,7 @@
       $('meta').textContent = `数据截止时间：${data.meta.generated_at}`;
       renderCards(data);
       fillSelect('topic', uniq(state.rows.map(r=>r.topic)));
+      fillSelect('uploadDate', uniq(state.rows.map(r=>r.upload_date)));
       fillSelectPairs('type', [
         { value: 'oral', label: '口头报告' },
         { value: 'poster', label: '墙报' },
@@ -223,7 +229,7 @@
       fillSelect('identity', uniq(state.rows.map(r=>r.identity)));
       $('q').addEventListener('input', renderTable);
       $('exportCsv').addEventListener('click', exportCsv);
-      ['topic','type','identity'].forEach(id => $(id).addEventListener('change', renderTable));
+      ['topic','uploadDate','type','identity'].forEach(id => $(id).addEventListener('change', renderTable));
       renderTable();
       renderSessions(data);
       renderUnits(data);
