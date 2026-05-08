@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "数字水圈论坛报告查询",
-    "generated_at": "2026-05-08 14:00",
-    "source_file": "20260508140020论文导出_统计.xlsx",
+    "generated_at": "2026-05-08 17:00",
+    "source_file": "20260508170057论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "数字水圈论坛"
   },
@@ -464,8 +464,8 @@
       "identity": "研究员",
       "institution": "北京师范大学",
       "title": "The importance of hydrology in routing terrestrial carbon to the atmosphere via global streams and rivers",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "数字水圈论坛",
@@ -490,8 +490,8 @@
       "identity": "副教授",
       "institution": "郑州大学水利与交通学院",
       "title": "日光诱导叶绿素荧光驱动的生态水文过程机理建模与应用",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "数字水圈论坛",
@@ -1010,8 +1010,8 @@
       "identity": "教授",
       "institution": "内蒙古师范大学",
       "title": "气候变化下干旱传播的关键驱动因素识别与分析",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "数字水圈论坛",

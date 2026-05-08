@@ -1,15 +1,15 @@
 {
   "meta": {
     "title": "土壤水研究大会报告查询",
-    "generated_at": "2026-05-08 14:00",
-    "source_file": "20260508140020论文导出_统计.xlsx",
+    "generated_at": "2026-05-08 17:00",
+    "source_file": "20260508170057论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "土壤水研究大会"
   },
   "summary": [
     {
       "会议名称": "土壤水研究大会",
-      "口头报告": 89,
+      "口头报告": 91,
       "墙报": 19
     }
   ],
@@ -17,12 +17,12 @@
     {
       "会议名称": "土壤水研究大会",
       "会场名称": "土壤水空天遥感机理与方法",
-      "口头报告": 17,
+      "口头报告": 18,
       "墙报": 2,
       "Unnamed: 3": "",
       "Unnamed: 4": "",
       "图表标签": "土壤水空天遥感机理与方法",
-      "总计": 19
+      "总计": 20
     },
     {
       "会议名称": "土壤水研究大会",
@@ -47,12 +47,12 @@
     {
       "会议名称": "土壤水研究大会",
       "会场名称": "土壤水数据融合与智能应用",
-      "口头报告": 7,
+      "口头报告": 8,
       "墙报": 7,
       "Unnamed: 3": "",
       "Unnamed: 4": "",
       "图表标签": "土壤水数据融合与智能应用",
-      "总计": 14
+      "总计": 15
     },
     {
       "会议名称": "土壤水研究大会",
@@ -326,6 +326,19 @@
       "title": "物理一致性机器学习驱动的主被动微波协同土壤水分反演",
       "payment": "已缴费",
       "payment_paid": true
+    },
+    {
+      "meeting": "土壤水研究大会",
+      "topic": "土壤水空天遥感机理与方法",
+      "paper_no": "127-022",
+      "report_type_code": "oral",
+      "report_type_label": "口头报告",
+      "speaker": "崔慧珍",
+      "identity": "助理研究员",
+      "institution": "中国科学院国家空间科学中心",
+      "title": "HY-4A/MICAP土壤水分遥感反演初探",
+      "payment": "未缴费",
+      "payment_paid": false
     },
     {
       "meeting": "土壤水研究大会",
@@ -811,6 +824,19 @@
     {
       "meeting": "土壤水研究大会",
       "topic": "土壤水数据融合与智能应用",
+      "paper_no": "131-016",
+      "report_type_code": "oral",
+      "report_type_label": "口头报告",
+      "speaker": "周磊",
+      "identity": "教授",
+      "institution": "北京建筑大学",
+      "title": "新型气象农业复合干旱综合特征量化监测方法研究",
+      "payment": "未缴费",
+      "payment_paid": false
+    },
+    {
+      "meeting": "土壤水研究大会",
+      "topic": "土壤水数据融合与智能应用",
       "paper_no": "131-004",
       "report_type_code": "poster",
       "report_type_label": "墙报",
@@ -1052,8 +1078,8 @@
       "identity": "副研究员",
       "institution": "四川大学",
       "title": "基于遥感再分析的北半球融雪洪水时空演变及归因研究",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "土壤水研究大会",
@@ -1584,14 +1610,14 @@
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "江汉大学",
+      "institution": "中国矿业大学（北京）",
       "oral": 1,
       "poster": 2,
       "total": 3
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "中国矿业大学（北京）",
+      "institution": "江汉大学",
       "oral": 1,
       "poster": 2,
       "total": 3
@@ -1601,6 +1627,20 @@
       "institution": "同济大学",
       "oral": 1,
       "poster": 1,
+      "total": 2
+    },
+    {
+      "meeting": "土壤水研究大会",
+      "institution": "三峡大学",
+      "oral": 2,
+      "poster": 0,
+      "total": 2
+    },
+    {
+      "meeting": "土壤水研究大会",
+      "institution": "山东农业大学",
+      "oral": 2,
+      "poster": 0,
       "total": 2
     },
     {
@@ -1633,13 +1673,6 @@
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "三峡大学",
-      "oral": 2,
-      "poster": 0,
-      "total": 2
-    },
-    {
-      "meeting": "土壤水研究大会",
       "institution": "中国科学院西北生态环境资源研究院",
       "oral": 2,
       "poster": 0,
@@ -1647,14 +1680,7 @@
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "山东农业大学",
-      "oral": 2,
-      "poster": 0,
-      "total": 2
-    },
-    {
-      "meeting": "土壤水研究大会",
-      "institution": "中国气象局地球系统数值预报中心",
+      "institution": "中国科学院南京土壤研究所",
       "oral": 1,
       "poster": 0,
       "total": 1
@@ -1668,7 +1694,14 @@
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "中国水利水电科学研究院",
+      "institution": "中国科学院东北地理与农业生态研究所",
+      "oral": 1,
+      "poster": 0,
+      "total": 1
+    },
+    {
+      "meeting": "土壤水研究大会",
+      "institution": "NanjingUniversity",
       "oral": 1,
       "poster": 0,
       "total": 1
@@ -1676,6 +1709,13 @@
     {
       "meeting": "土壤水研究大会",
       "institution": "中南林业科技大学",
+      "oral": 1,
+      "poster": 0,
+      "total": 1
+    },
+    {
+      "meeting": "土壤水研究大会",
+      "institution": "中国气象局地球系统数值预报中心",
       "oral": 1,
       "poster": 0,
       "total": 1
@@ -1703,7 +1743,21 @@
     },
     {
       "meeting": "土壤水研究大会",
+      "institution": "北京建筑大学",
+      "oral": 1,
+      "poster": 0,
+      "total": 1
+    },
+    {
+      "meeting": "土壤水研究大会",
       "institution": "北京大学",
+      "oral": 1,
+      "poster": 0,
+      "total": 1
+    },
+    {
+      "meeting": "土壤水研究大会",
+      "institution": "兰州大学",
       "oral": 1,
       "poster": 0,
       "total": 1
@@ -1724,35 +1778,7 @@
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "兰州大学",
-      "oral": 1,
-      "poster": 0,
-      "total": 1
-    },
-    {
-      "meeting": "土壤水研究大会",
       "institution": "中山大学地理科学与规划学院",
-      "oral": 1,
-      "poster": 0,
-      "total": 1
-    },
-    {
-      "meeting": "土壤水研究大会",
-      "institution": "中国科学院青藏高原研究所",
-      "oral": 1,
-      "poster": 0,
-      "total": 1
-    },
-    {
-      "meeting": "土壤水研究大会",
-      "institution": "中国科学院南京土壤研究所",
-      "oral": 1,
-      "poster": 0,
-      "total": 1
-    },
-    {
-      "meeting": "土壤水研究大会",
-      "institution": "中国科学院东北地理与农业生态研究所",
       "oral": 1,
       "poster": 0,
       "total": 1
@@ -1766,7 +1792,14 @@
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "NanjingUniversity",
+      "institution": "中国科学院青藏高原研究所",
+      "oral": 1,
+      "poster": 0,
+      "total": 1
+    },
+    {
+      "meeting": "土壤水研究大会",
+      "institution": "中国科学院国家空间科学中心",
       "oral": 1,
       "poster": 0,
       "total": 1
@@ -1774,6 +1807,13 @@
     {
       "meeting": "土壤水研究大会",
       "institution": "中国地质大学（武汉）",
+      "oral": 1,
+      "poster": 0,
+      "total": 1
+    },
+    {
+      "meeting": "土壤水研究大会",
+      "institution": "中国水利水电科学研究院",
       "oral": 1,
       "poster": 0,
       "total": 1
@@ -1916,9 +1956,9 @@
     {
       "meeting": "土壤水研究大会",
       "name": "土壤水空天遥感机理与方法",
-      "oral": 17,
+      "oral": 18,
       "poster": 2,
-      "total": 19
+      "total": 20
     },
     {
       "meeting": "土壤水研究大会",
@@ -1930,9 +1970,9 @@
     {
       "meeting": "土壤水研究大会",
       "name": "土壤水数据融合与智能应用",
-      "oral": 7,
+      "oral": 8,
       "poster": 7,
-      "total": 14
+      "total": 15
     },
     {
       "meeting": "土壤水研究大会",
