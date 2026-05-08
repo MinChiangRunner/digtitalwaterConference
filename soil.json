@@ -1,15 +1,15 @@
 {
   "meta": {
     "title": "土壤水研究大会报告查询",
-    "generated_at": "2026-05-08 11:00",
-    "source_file": "20260508110020论文导出_统计.xlsx",
+    "generated_at": "2026-05-08 14:00",
+    "source_file": "20260508140020论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "土壤水研究大会"
   },
   "summary": [
     {
       "会议名称": "土壤水研究大会",
-      "口头报告": 88,
+      "口头报告": 89,
       "墙报": 19
     }
   ],
@@ -57,12 +57,12 @@
     {
       "会议名称": "土壤水研究大会",
       "会场名称": "土壤水灾害与气候变化",
-      "口头报告": 11,
+      "口头报告": 12,
       "墙报": 2,
       "Unnamed: 3": "",
       "Unnamed: 4": "",
       "图表标签": "土壤水灾害与气候变化",
-      "总计": 13
+      "总计": 14
     },
     {
       "会议名称": "土壤水研究大会",
@@ -1045,6 +1045,19 @@
     {
       "meeting": "土壤水研究大会",
       "topic": "土壤水灾害与气候变化",
+      "paper_no": "132-014",
+      "report_type_code": "oral",
+      "report_type_label": "口头报告",
+      "speaker": "郭禹含",
+      "identity": "副研究员",
+      "institution": "四川大学",
+      "title": "基于遥感再分析的北半球融雪洪水时空演变及归因研究",
+      "payment": "未缴费",
+      "payment_paid": false
+    },
+    {
+      "meeting": "土壤水研究大会",
+      "topic": "土壤水灾害与气候变化",
       "paper_no": "132-007",
       "report_type_code": "poster",
       "report_type_label": "墙报",
@@ -1515,13 +1528,6 @@
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "中山大学",
-      "oral": 4,
-      "poster": 1,
-      "total": 5
-    },
-    {
-      "meeting": "土壤水研究大会",
       "institution": "中国科学院地理科学与资源研究所",
       "oral": 4,
       "poster": 1,
@@ -1536,14 +1542,21 @@
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "清华大学",
+      "institution": "中山大学",
+      "oral": 4,
+      "poster": 1,
+      "total": 5
+    },
+    {
+      "meeting": "土壤水研究大会",
+      "institution": "河海大学",
       "oral": 4,
       "poster": 0,
       "total": 4
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "河海大学",
+      "institution": "清华大学",
       "oral": 4,
       "poster": 0,
       "total": 4
@@ -1564,16 +1577,16 @@
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "江汉大学",
-      "oral": 1,
-      "poster": 2,
+      "institution": "武汉大学",
+      "oral": 3,
+      "poster": 0,
       "total": 3
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "武汉大学",
-      "oral": 3,
-      "poster": 0,
+      "institution": "江汉大学",
+      "oral": 1,
+      "poster": 2,
       "total": 3
     },
     {
@@ -1588,6 +1601,13 @@
       "institution": "同济大学",
       "oral": 1,
       "poster": 1,
+      "total": 2
+    },
+    {
+      "meeting": "土壤水研究大会",
+      "institution": "天津大学",
+      "oral": 2,
+      "poster": 0,
       "total": 2
     },
     {
@@ -1607,13 +1627,6 @@
     {
       "meeting": "土壤水研究大会",
       "institution": "浙江大学",
-      "oral": 2,
-      "poster": 0,
-      "total": 2
-    },
-    {
-      "meeting": "土壤水研究大会",
-      "institution": "天津大学",
       "oral": 2,
       "poster": 0,
       "total": 2
@@ -1641,6 +1654,13 @@
     },
     {
       "meeting": "土壤水研究大会",
+      "institution": "中国气象局地球系统数值预报中心",
+      "oral": 1,
+      "poster": 0,
+      "total": 1
+    },
+    {
+      "meeting": "土壤水研究大会",
       "institution": "中国矿业大学",
       "oral": 1,
       "poster": 0,
@@ -1655,7 +1675,7 @@
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "中国气象局地球系统数值预报中心",
+      "institution": "中南林业科技大学",
       "oral": 1,
       "poster": 0,
       "total": 1
@@ -1663,6 +1683,13 @@
     {
       "meeting": "土壤水研究大会",
       "institution": "HohaiUniversity",
+      "oral": 1,
+      "poster": 0,
+      "total": 1
+    },
+    {
+      "meeting": "土壤水研究大会",
+      "institution": "南京信息工程大学",
       "oral": 1,
       "poster": 0,
       "total": 1
@@ -1690,6 +1717,13 @@
     },
     {
       "meeting": "土壤水研究大会",
+      "institution": "中山大学大气科学学院",
+      "oral": 1,
+      "poster": 0,
+      "total": 1
+    },
+    {
+      "meeting": "土壤水研究大会",
       "institution": "兰州大学",
       "oral": 1,
       "poster": 0,
@@ -1698,20 +1732,6 @@
     {
       "meeting": "土壤水研究大会",
       "institution": "中山大学地理科学与规划学院",
-      "oral": 1,
-      "poster": 0,
-      "total": 1
-    },
-    {
-      "meeting": "土壤水研究大会",
-      "institution": "中山大学大气科学学院",
-      "oral": 1,
-      "poster": 0,
-      "total": 1
-    },
-    {
-      "meeting": "土壤水研究大会",
-      "institution": "中国科学院东北地理与农业生态研究所",
       "oral": 1,
       "poster": 0,
       "total": 1
@@ -1732,6 +1752,13 @@
     },
     {
       "meeting": "土壤水研究大会",
+      "institution": "中国科学院东北地理与农业生态研究所",
+      "oral": 1,
+      "poster": 0,
+      "total": 1
+    },
+    {
+      "meeting": "土壤水研究大会",
       "institution": "中国科学院地球环境研究所",
       "oral": 1,
       "poster": 0,
@@ -1746,21 +1773,7 @@
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "中南林业科技大学",
-      "oral": 1,
-      "poster": 0,
-      "total": 1
-    },
-    {
-      "meeting": "土壤水研究大会",
       "institution": "中国地质大学（武汉）",
-      "oral": 1,
-      "poster": 0,
-      "total": 1
-    },
-    {
-      "meeting": "土壤水研究大会",
-      "institution": "南京大学",
       "oral": 1,
       "poster": 0,
       "total": 1
@@ -1774,7 +1787,14 @@
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "南京信息工程大学",
+      "institution": "四川大学",
+      "oral": 1,
+      "poster": 0,
+      "total": 1
+    },
+    {
+      "meeting": "土壤水研究大会",
+      "institution": "南京大学",
       "oral": 1,
       "poster": 0,
       "total": 1
@@ -1917,9 +1937,9 @@
     {
       "meeting": "土壤水研究大会",
       "name": "土壤水灾害与气候变化",
-      "oral": 11,
+      "oral": 12,
       "poster": 2,
-      "total": 13
+      "total": 14
     },
     {
       "meeting": "土壤水研究大会",
