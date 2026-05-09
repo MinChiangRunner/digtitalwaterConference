@@ -138,6 +138,16 @@
       values.forEach(v => { const opt=document.createElement('option'); opt.value=v.value; opt.textContent=v.label; el.appendChild(opt); });
       if ([...el.options].some(opt => opt.value === current)) el.value = current;
     }
+    function sortDatesDesc(values) {
+      return values.slice().sort((a,b) => {
+        const at = Date.parse(a);
+        const bt = Date.parse(b);
+        if (Number.isNaN(at) && Number.isNaN(bt)) return String(b).localeCompare(String(a), 'zh-CN');
+        if (Number.isNaN(at)) return 1;
+        if (Number.isNaN(bt)) return -1;
+        return bt - at;
+      });
+    }
     function renderCards(data) {
       const rows = data.speakers || [];
       const oral = rows.filter(r => r.report_type_code === 'oral').length;
@@ -223,7 +233,7 @@
       $('meta').textContent = `数据截止时间：${data.meta.generated_at}`;
       renderCards(data);
       fillSelect('topic', uniq(state.rows.map(r=>r.topic)));
-      fillSelect('uploadDate', uniq(state.rows.map(r=>r.upload_date)));
+      fillSelect('uploadDate', sortDatesDesc(uniq(state.rows.map(r=>r.upload_date))));
       fillSelectPairs('type', [
         { value: 'oral', label: '口头报告' },
         { value: 'poster', label: '墙报' },
