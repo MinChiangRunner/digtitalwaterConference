@@ -1,15 +1,15 @@
 {
   "meta": {
     "title": "数字水圈论坛报告查询",
-    "generated_at": "2026-05-09 20:30",
-    "source_file": "20260509205740论文导出_统计.xlsx",
+    "generated_at": "2026-05-09 21:00",
+    "source_file": "20260509212809论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "数字水圈论坛"
   },
   "summary": [
     {
       "会议名称": "数字水圈论坛",
-      "口头报告": 109,
+      "口头报告": 110,
       "墙报": 15
     }
   ],
@@ -67,12 +67,12 @@
     {
       "会议名称": "数字水圈论坛",
       "会场名称": "冰雪水文遥感与前沿技术",
-      "口头报告": 17,
+      "口头报告": 18,
       "墙报": 2,
       "Unnamed: 3": "",
       "Unnamed: 4": "",
       "图表标签": "冰雪水文遥感与前沿技术",
-      "总计": 19
+      "总计": 20
     },
     {
       "会议名称": "数字水圈论坛",
@@ -1169,6 +1169,20 @@
     {
       "meeting": "数字水圈论坛",
       "topic": "冰雪水文遥感与前沿技术",
+      "paper_no": "125-018",
+      "upload_date": "2026-05-09",
+      "report_type_code": "oral",
+      "report_type_label": "口头报告",
+      "speaker": "张成",
+      "identity": "在读博士",
+      "institution": "北京师范大学",
+      "title": "协同多源光学与三维地形趋势面校正的 NISAR 大尺度80m雪水当量反演研究",
+      "payment": "未缴费",
+      "payment_paid": false
+    },
+    {
+      "meeting": "数字水圈论坛",
+      "topic": "冰雪水文遥感与前沿技术",
       "paper_no": "",
       "upload_date": "2026-05-02",
       "report_type_code": "oral",
@@ -1857,9 +1871,9 @@
     {
       "meeting": "数字水圈论坛",
       "institution": "北京师范大学",
-      "oral": 6,
+      "oral": 7,
       "poster": 3,
-      "total": 9
+      "total": 10
     },
     {
       "meeting": "数字水圈论坛",
@@ -2272,9 +2286,9 @@
     {
       "meeting": "数字水圈论坛",
       "name": "冰雪水文遥感与前沿技术",
-      "oral": 17,
+      "oral": 18,
       "poster": 2,
-      "total": 19
+      "total": 20
     },
     {
       "meeting": "数字水圈论坛",

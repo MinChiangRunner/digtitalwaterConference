@@ -119,6 +119,9 @@
       $('exportCsv').addEventListener('click', exportCsv);
       ['status','hasReport','meeting'].forEach(id => $(id).addEventListener('change', renderTable));
       renderTable();
+    }).catch(err => {
+      $('meta').textContent = `数据加载失败：${err && err.message ? err.message : err}`;
+      $('count').textContent = '0 条记录';
     });
   </script>
 </body>
