@@ -52,7 +52,7 @@
       const unregistered = allRows.filter(r => r['注册缴费状态'] === '未注册未缴费').length;
       document.getElementById('meta').textContent = `数据截止时间：${val(data.meta && data.meta.generated_at)} ｜ 未缴费清单：${val(data.registered_unpaid && data.registered_unpaid.source_file) || '未找到'}`;
       document.getElementById('dashboard').innerHTML = [
-        `<a class="metric" href="all-registrants.html"><b>${total}</b><span>总人员数</span><small>系统导出 + 手动补充，已去重</small></a>`,
+        `<a class="metric" href="all-registrants.html"><b>${total}</b><span>总人员数</span><small>点击查看所有注册人员</small></a>`,
         `<a class="metric paid" href="all-registrants.html?status=${encodeURIComponent('已注册已缴费')}"><b>${paid}</b><span>已缴费人数</span><small>点击查看已缴费人员</small></a>`,
         `<a class="metric unpaid" href="all-registrants.html?status=${encodeURIComponent('已注册未缴费')}"><b>${unpaid}</b><span>已注册未缴费</span><small>点击查看未缴费人员</small></a>`,
         `<a class="metric unregistered" href="all-registrants.html?status=${encodeURIComponent('未注册未缴费')}"><b>${unregistered}</b><span>未注册未缴费</span><small>来自手动补充报告</small></a>`,
