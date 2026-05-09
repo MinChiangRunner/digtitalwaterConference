@@ -1,16 +1,16 @@
 {
   "meta": {
     "title": "数字水圈论坛报告查询",
-    "generated_at": "2026-05-09 14:00",
-    "source_file": "20260509141959论文导出_统计.xlsx",
+    "generated_at": "2026-05-09 17:00",
+    "source_file": "20260509170020论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "数字水圈论坛"
   },
   "summary": [
     {
       "会议名称": "数字水圈论坛",
-      "口头报告": 108,
-      "墙报": 14
+      "口头报告": 109,
+      "墙报": 15
     }
   ],
   "topics": [
@@ -27,12 +27,12 @@
     {
       "会议名称": "数字水圈论坛",
       "会场名称": "水文过程与水资源韧性",
-      "口头报告": 13,
+      "口头报告": 14,
       "墙报": 2,
       "Unnamed: 3": "",
       "Unnamed: 4": "",
       "图表标签": "水文过程与水资源韧性",
-      "总计": 15
+      "总计": 16
     },
     {
       "会议名称": "数字水圈论坛",
@@ -98,11 +98,11 @@
       "会议名称": "数字水圈论坛",
       "会场名称": "水-能-粮协同与区域安全",
       "口头报告": 9,
-      "墙报": 0,
+      "墙报": 1,
       "Unnamed: 3": "",
       "Unnamed: 4": "",
       "图表标签": "水-能-粮协同与区域安全",
-      "总计": 9
+      "总计": 10
     },
     {
       "会议名称": "数字水圈论坛",
@@ -507,6 +507,20 @@
       "title": "水文模型自动化参数率定与不确定性分析框架： HydroPilot与UQPyL的耦合实现",
       "payment": "已缴费",
       "payment_paid": true
+    },
+    {
+      "meeting": "数字水圈论坛",
+      "topic": "水文过程与水资源韧性",
+      "paper_no": "119-017",
+      "upload_date": "2026-05-09",
+      "report_type_code": "oral",
+      "report_type_label": "口头报告",
+      "speaker": "杨琰钊",
+      "identity": "在读硕士",
+      "institution": "河南理工大学",
+      "title": "基于图卷积LSTM的缺测资料区径流模拟研究 --以黑河上游为例",
+      "payment": "未缴费",
+      "payment_paid": false
     },
     {
       "meeting": "数字水圈论坛",
@@ -1602,6 +1616,20 @@
     },
     {
       "meeting": "数字水圈论坛",
+      "topic": "水-能-粮协同与区域安全",
+      "paper_no": "124-007",
+      "upload_date": "2026-05-09",
+      "report_type_code": "poster",
+      "report_type_label": "墙报",
+      "speaker": "刘梦丽",
+      "identity": "在读硕士",
+      "institution": "河南理工大学",
+      "title": "卫星遥感和可再分析资料干旱表征能力的对比分析",
+      "payment": "未缴费",
+      "payment_paid": false
+    },
+    {
+      "meeting": "数字水圈论坛",
       "topic": "地球水圈大数据与人工智能",
       "paper_no": "126-001",
       "upload_date": "2026-04-16",
@@ -1884,16 +1912,23 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "中国科学院青藏高原研究所",
-      "oral": 3,
-      "poster": 1,
+      "institution": "西南大学",
+      "oral": 4,
+      "poster": 0,
       "total": 4
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "西南大学",
-      "oral": 4,
-      "poster": 0,
+      "institution": "河南理工大学",
+      "oral": 2,
+      "poster": 2,
+      "total": 4
+    },
+    {
+      "meeting": "数字水圈论坛",
+      "institution": "中国科学院青藏高原研究所",
+      "oral": 3,
+      "poster": 1,
       "total": 4
     },
     {
@@ -1912,13 +1947,6 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "兰州大学",
-      "oral": 2,
-      "poster": 0,
-      "total": 2
-    },
-    {
-      "meeting": "数字水圈论坛",
       "institution": "北京大学",
       "oral": 2,
       "poster": 0,
@@ -1933,14 +1961,14 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "四川大学",
+      "institution": "国家卫星气象中心（国家空间天气监测预警中心）",
       "oral": 2,
       "poster": 0,
       "total": 2
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "国家卫星气象中心（国家空间天气监测预警中心）",
+      "institution": "兰州大学",
       "oral": 2,
       "poster": 0,
       "total": 2
@@ -1975,16 +2003,16 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "空天信息大学",
+      "institution": "四川大学",
       "oral": 2,
       "poster": 0,
       "total": 2
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "河南理工大学",
-      "oral": 1,
-      "poster": 1,
+      "institution": "空天信息大学",
+      "oral": 2,
+      "poster": 0,
       "total": 2
     },
     {
@@ -2257,14 +2285,14 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "name": "地球水循环与全球变化",
-      "oral": 13,
+      "name": "水文过程与水资源韧性",
+      "oral": 14,
       "poster": 2,
-      "total": 15
+      "total": 16
     },
     {
       "meeting": "数字水圈论坛",
-      "name": "水文过程与水资源韧性",
+      "name": "地球水循环与全球变化",
       "oral": 13,
       "poster": 2,
       "total": 15
@@ -2285,17 +2313,17 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "name": "水环境安全与可持续发展",
+      "name": "水-能-粮协同与区域安全",
       "oral": 9,
       "poster": 1,
       "total": 10
     },
     {
       "meeting": "数字水圈论坛",
-      "name": "水-能-粮协同与区域安全",
+      "name": "水环境安全与可持续发展",
       "oral": 9,
-      "poster": 0,
-      "total": 9
+      "poster": 1,
+      "total": 10
     },
     {
       "meeting": "数字水圈论坛",

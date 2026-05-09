@@ -1,15 +1,15 @@
 {
   "meta": {
     "title": "土壤水研究大会报告查询",
-    "generated_at": "2026-05-09 14:00",
-    "source_file": "20260509141959论文导出_统计.xlsx",
+    "generated_at": "2026-05-09 17:00",
+    "source_file": "20260509170020论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "土壤水研究大会"
   },
   "summary": [
     {
       "会议名称": "土壤水研究大会",
-      "口头报告": 91,
+      "口头报告": 92,
       "墙报": 19
     }
   ],
@@ -77,12 +77,12 @@
     {
       "会议名称": "土壤水研究大会",
       "会场名称": "土壤水调控与节水灌溉",
-      "口头报告": 5,
+      "口头报告": 6,
       "墙报": 2,
       "Unnamed: 3": "",
       "Unnamed: 4": "",
       "图表标签": "土壤水调控与节水灌溉",
-      "总计": 7
+      "总计": 8
     },
     {
       "会议名称": "土壤水研究大会",
@@ -1327,6 +1327,20 @@
     {
       "meeting": "土壤水研究大会",
       "topic": "土壤水调控与节水灌溉",
+      "paper_no": "135-008",
+      "upload_date": "2026-05-09",
+      "report_type_code": "oral",
+      "report_type_label": "口头报告",
+      "speaker": "张玉翠",
+      "identity": "研究员",
+      "institution": "中国科学院遗传发育所农业资源研究中心",
+      "title": "华北平原农田水分高效利用机理与技术",
+      "payment": "未缴费",
+      "payment_paid": false
+    },
+    {
+      "meeting": "土壤水研究大会",
+      "topic": "土壤水调控与节水灌溉",
       "paper_no": "135-001",
       "upload_date": "2026-03-30",
       "report_type_code": "poster",
@@ -1664,6 +1678,13 @@
     },
     {
       "meeting": "土壤水研究大会",
+      "institution": "中山大学",
+      "oral": 4,
+      "poster": 1,
+      "total": 5
+    },
+    {
+      "meeting": "土壤水研究大会",
       "institution": "中国科学院地理科学与资源研究所",
       "oral": 4,
       "poster": 1,
@@ -1678,21 +1699,14 @@
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "中山大学",
-      "oral": 4,
-      "poster": 1,
-      "total": 5
-    },
-    {
-      "meeting": "土壤水研究大会",
-      "institution": "河海大学",
+      "institution": "清华大学",
       "oral": 4,
       "poster": 0,
       "total": 4
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "清华大学",
+      "institution": "河海大学",
       "oral": 4,
       "poster": 0,
       "total": 4
@@ -1713,6 +1727,13 @@
     },
     {
       "meeting": "土壤水研究大会",
+      "institution": "江汉大学",
+      "oral": 1,
+      "poster": 2,
+      "total": 3
+    },
+    {
+      "meeting": "土壤水研究大会",
       "institution": "武汉大学",
       "oral": 3,
       "poster": 0,
@@ -1727,13 +1748,6 @@
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "江汉大学",
-      "oral": 1,
-      "poster": 2,
-      "total": 3
-    },
-    {
-      "meeting": "土壤水研究大会",
       "institution": "同济大学",
       "oral": 1,
       "poster": 1,
@@ -1742,6 +1756,13 @@
     {
       "meeting": "土壤水研究大会",
       "institution": "三峡大学",
+      "oral": 2,
+      "poster": 0,
+      "total": 2
+    },
+    {
+      "meeting": "土壤水研究大会",
+      "institution": "中国科学院西北生态环境资源研究院",
       "oral": 2,
       "poster": 0,
       "total": 2
@@ -1783,21 +1804,14 @@
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "中国科学院西北生态环境资源研究院",
-      "oral": 2,
-      "poster": 0,
-      "total": 2
-    },
-    {
-      "meeting": "土壤水研究大会",
-      "institution": "中国科学院南京土壤研究所",
+      "institution": "中国科学院国家空间科学中心",
       "oral": 1,
       "poster": 0,
       "total": 1
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "中国矿业大学",
+      "institution": "中国科学院南京土壤研究所",
       "oral": 1,
       "poster": 0,
       "total": 1
@@ -1811,7 +1825,7 @@
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "NanjingUniversity",
+      "institution": "中国水利水电科学研究院",
       "oral": 1,
       "poster": 0,
       "total": 1
@@ -1825,7 +1839,14 @@
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "中国气象局地球系统数值预报中心",
+      "institution": "中国地质大学（武汉）",
+      "oral": 1,
+      "poster": 0,
+      "total": 1
+    },
+    {
+      "meeting": "土壤水研究大会",
+      "institution": "NanjingUniversity",
       "oral": 1,
       "poster": 0,
       "total": 1
@@ -1895,7 +1916,7 @@
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "中国科学院地球环境研究所",
+      "institution": "中国科学院遗传发育所农业资源研究中心",
       "oral": 1,
       "poster": 0,
       "total": 1
@@ -1909,21 +1930,21 @@
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "中国科学院国家空间科学中心",
+      "institution": "中国科学院地球环境研究所",
       "oral": 1,
       "poster": 0,
       "total": 1
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "中国地质大学（武汉）",
+      "institution": "中国气象局地球系统数值预报中心",
       "oral": 1,
       "poster": 0,
       "total": 1
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "中国水利水电科学研究院",
+      "institution": "中国矿业大学",
       "oral": 1,
       "poster": 0,
       "total": 1
@@ -2115,9 +2136,9 @@
     {
       "meeting": "土壤水研究大会",
       "name": "土壤水调控与节水灌溉",
-      "oral": 5,
+      "oral": 6,
       "poster": 2,
-      "total": 7
+      "total": 8
     },
     {
       "meeting": "土壤水研究大会",
