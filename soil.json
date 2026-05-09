@@ -2,7 +2,7 @@
   "meta": {
     "title": "土壤水研究大会报告查询",
     "generated_at": "2026-05-09 20:00",
-    "source_file": "20260509200022论文导出_统计.xlsx",
+    "source_file": "20260509201952论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "土壤水研究大会"
   },
@@ -10,7 +10,7 @@
     {
       "会议名称": "土壤水研究大会",
       "口头报告": 93,
-      "墙报": 19
+      "墙报": 20
     }
   ],
   "topics": [
@@ -18,11 +18,11 @@
       "会议名称": "土壤水研究大会",
       "会场名称": "土壤水空天遥感机理与方法",
       "口头报告": 18,
-      "墙报": 2,
+      "墙报": 3,
       "Unnamed: 3": "",
       "Unnamed: 4": "",
       "图表标签": "土壤水空天遥感机理与方法",
-      "总计": 20
+      "总计": 21
     },
     {
       "会议名称": "土壤水研究大会",
@@ -383,6 +383,20 @@
       "identity": "在读博士",
       "institution": "北京师范大学",
       "title": "基于分层模型的微波土壤穿透深度分析",
+      "payment": "未缴费",
+      "payment_paid": false
+    },
+    {
+      "meeting": "土壤水研究大会",
+      "topic": "土壤水空天遥感机理与方法",
+      "paper_no": "127-023",
+      "upload_date": "2026-05-09",
+      "report_type_code": "poster",
+      "report_type_label": "墙报",
+      "speaker": "李德强",
+      "identity": "在读硕士",
+      "institution": "北京师范大学",
+      "title": "东北地区风云三号卫星土壤水分反演研究",
       "payment": "未缴费",
       "payment_paid": false
     },
@@ -1687,8 +1701,8 @@
       "meeting": "土壤水研究大会",
       "institution": "北京师范大学",
       "oral": 4,
-      "poster": 2,
-      "total": 6
+      "poster": 3,
+      "total": 7
     },
     {
       "meeting": "土壤水研究大会",
@@ -2102,8 +2116,8 @@
       "meeting": "土壤水研究大会",
       "name": "土壤水空天遥感机理与方法",
       "oral": 18,
-      "poster": 2,
-      "total": 20
+      "poster": 3,
+      "total": 21
     },
     {
       "meeting": "土壤水研究大会",

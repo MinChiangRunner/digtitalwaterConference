@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>未缴费人员信息表</title>
+  <style>
+    :root { color-scheme:light; --ink:#0f172a; --muted:#64748b; --line:#dbe7f3; --blue:#2563eb; --bg:#f6faff; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:"Microsoft YaHei", "PingFang SC", Arial, sans-serif; background:linear-gradient(180deg,#f6faff,#eef6ff); color:var(--ink); }
+    header { padding:28px 32px 18px; border-bottom:1px solid var(--line); background:rgba(255,255,255,.92); }
+    h1 { margin:0 0 8px; font-size:26px; letter-spacing:0; }
+    a { color:var(--blue); text-decoration:none; }
+    main { max-width:1500px; margin:0 auto; padding:24px 24px 40px; }
+    .meta, .muted { color:var(--muted); font-size:14px; }
+    .nav { display:flex; gap:14px; margin-top:8px; flex-wrap:wrap; }
+    .toolbar { display:grid; grid-template-columns:2fr repeat(3,1fr); gap:10px; margin:0 0 14px; }
+    input, select { width:100%; height:42px; border:1px solid var(--line); border-radius:6px; padding:0 12px; background:#fff; color:var(--ink); font-size:15px; }
+    .section-label { display:flex; align-items:center; justify-content:space-between; gap:14px; margin:18px 0 10px; color:var(--muted); font-size:14px; }
+    .section-label strong { color:var(--ink); font-size:18px; }
+    .table-wrap { width:100%; overflow:auto; border-radius:8px; box-shadow:0 10px 28px rgba(15,23,42,.06); }
+    table { min-width:1380px; width:100%; border-collapse:collapse; background:#fff; border:1px solid var(--line); border-radius:8px; overflow:hidden; }
+    th, td { padding:9px 10px; border-bottom:1px solid #edf3f9; text-align:left; vertical-align:top; font-size:13px; line-height:1.45; overflow-wrap:anywhere; word-break:break-word; }
+    th { background:#0f2a4a; color:#fff; position:sticky; top:0; z-index:2; }
+    tr:hover td { background:#f8fbff; }
+    @media (max-width: 900px) { .toolbar { grid-template-columns:1fr; } th, td { font-size:12px; padding:8px 7px; } header { padding:24px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>未缴费人员信息表</h1>
+    <div class="meta" id="meta">正在加载数据...</div>
+    <nav class="nav"><a href="index.html">入口页</a><a href="soil.html">土壤水研究大会</a><a href="water.html">数字水圈论坛</a></nav>
+  </header>
+  <main>
+    <section class="toolbar">
+      <input id="q" placeholder="搜索姓名、单位、电话、邮箱、报告题目、专题" />
+      <select id="status"><option value="">全部注册缴费状态</option></select>
+      <select id="hasReport"><option value="">全部报告状态</option></select>
+      <select id="meeting"><option value="">全部报告会议</option></select>
+    </section>
+    <div class="section-label"><strong>人员清单</strong><span id="resultCount"></span></div>
+    <div class="table-wrap">
+      <table>
+        <thead id="thead"></thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+  </main>
+  <script>
+    const state = { rows:[], cols:[] };
+    const $ = id => document.getElementById(id);
+    const val = x => x == null ? '' : String(x);
+    const uniq = arr => [...new Set(arr.filter(Boolean))].sort((a,b)=>String(a).localeCompare(String(b), 'zh-CN'));
+    function fillSelect(id, values) {
+      const el = $(id);
+      values.forEach(v => { const opt=document.createElement('option'); opt.value=v; opt.textContent=v; el.appendChild(opt); });
+    }
+    function filteredRows() {
+      const q = val($('q').value).trim().toLowerCase();
+      const status = $('status').value;
+      const hasReport = $('hasReport').value;
+      const meeting = $('meeting').value;
+      return state.rows.filter(r => {
+        if (status && r['注册缴费状态'] !== status) return false;
+        if (hasReport && r['是否有报告'] !== hasReport) return false;
+        if (meeting && !val(r['报告会议']).includes(meeting)) return false;
+        if (!q) return true;
+        return state.cols.some(c => val(r[c]).toLowerCase().includes(q));
+      });
+    }
+    function renderTable() {
+      const rows = filteredRows();
+      $('resultCount').textContent = `${rows.length} 人`;
+      $('thead').innerHTML = `<tr>${state.cols.map(c=>`<th>${c}</th>`).join('')}</tr>`;
+      $('tbody').innerHTML = rows.map(r => `<tr>${state.cols.map(c=>`<td>${val(r[c])}</td>`).join('')}</tr>`).join('');
+    }
+    fetch('data.json?t=' + Date.now()).then(r=>r.json()).then(data => {
+      const unpaid = data.registered_unpaid || {};
+      state.cols = unpaid.columns || [];
+      state.rows = unpaid.rows || [];
+      $('meta').textContent = `数据截止时间：${val(data.meta && data.meta.generated_at)} ｜ 来源：${val(unpaid.source_file) || '未找到清单文件'}`;
+      fillSelect('status', uniq(state.rows.map(r=>r['注册缴费状态'])));
+      fillSelect('hasReport', uniq(state.rows.map(r=>r['是否有报告'])));
+      fillSelect('meeting', uniq(state.rows.flatMap(r=>val(r['报告会议']).split('；')).filter(Boolean)));
+      $('q').addEventListener('input', renderTable);
+      ['status','hasReport','meeting'].forEach(id => $(id).addEventListener('change', renderTable));
+      renderTable();
+    });
+  </script>
+</body>
+</html>

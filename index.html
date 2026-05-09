@@ -5,23 +5,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>大会查询入口</title>
   <style>
-    body { margin:0; min-height:100vh; display:grid; place-items:center; font-family:"Microsoft YaHei", "PingFang SC", Arial, sans-serif; background:#f6faff; color:#0f172a; }
-    main { width:min(860px, calc(100vw - 40px)); }
-    h1 { margin:0 0 20px; font-size:30px; }
+    :root { color-scheme: light; --ink:#0f172a; --muted:#64748b; --line:#dbe7f3; --blue:#2563eb; --green:#059669; --amber:#d97706; --bg:#f6faff; }
+    * { box-sizing:border-box; }
+    body { margin:0; min-height:100vh; font-family:"Microsoft YaHei", "PingFang SC", Arial, sans-serif; background:linear-gradient(180deg,#f6faff,#eef6ff); color:var(--ink); }
+    header { padding:28px 32px 18px; border-bottom:1px solid var(--line); background:rgba(255,255,255,.9); }
+    main { max-width:1120px; margin:0 auto; padding:24px 24px 42px; }
+    h1 { margin:0 0 8px; font-size:30px; letter-spacing:0; }
+    .meta { color:var(--muted); font-size:14px; }
+    .dashboard { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; margin-bottom:20px; }
+    .metric { display:block; min-height:136px; padding:20px; border:1px solid var(--line); border-radius:8px; background:white; color:var(--ink); text-decoration:none; box-shadow:0 10px 28px rgba(15,23,42,.06); }
+    .metric b { display:block; font-size:38px; line-height:1; margin-bottom:10px; color:var(--blue); }
+    .metric span { display:block; color:var(--muted); font-size:15px; }
+    .metric small { display:block; margin-top:12px; color:var(--blue); font-size:13px; }
+    .metric.paid b { color:var(--green); }
+    .metric.unpaid b { color:var(--amber); }
+    .metric.unpaid { cursor:pointer; }
     .links { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
-    a { display:block; padding:26px; border:1px solid #dbe7f3; border-radius:8px; background:white; color:#0f172a; text-decoration:none; box-shadow:0 10px 28px rgba(15,23,42,.06); }
-    b { display:block; font-size:24px; margin-bottom:8px; color:#2563eb; }
-    span { color:#64748b; }
-    @media (max-width: 700px) { .links { grid-template-columns:1fr; } }
+    .link { display:block; padding:24px; border:1px solid var(--line); border-radius:8px; background:white; color:var(--ink); text-decoration:none; box-shadow:0 10px 28px rgba(15,23,42,.06); }
+    .link b { display:block; font-size:24px; margin-bottom:8px; color:var(--blue); }
+    .link span { color:var(--muted); }
+    @media (max-width: 800px) { .dashboard, .links { grid-template-columns:1fr; } header { padding:24px; } }
   </style>
 </head>
 <body>
+  <header>
+    <h1>大会数据看板</h1>
+    <div class="meta" id="meta">正在加载数据...</div>
+  </header>
   <main>
-    <h1>大会报告查询</h1>
+    <section class="dashboard" id="dashboard"></section>
     <section class="links">
-      <a href="soil.html"><b>土壤水研究大会</b><span>查看报告人、专题、单位排行和缴费状态</span></a>
-      <a href="water.html"><b>数字水圈论坛</b><span>查看报告人、专题、单位排行和缴费状态</span></a>
+      <a class="link" href="soil.html"><b>土壤水研究大会</b><span>查看报告人、专题、单位排行和缴费状态</span></a>
+      <a class="link" href="water.html"><b>数字水圈论坛</b><span>查看报告人、专题、单位排行和缴费状态</span></a>
     </section>
   </main>
+  <script>
+    const val = x => x == null ? '' : String(x);
+    fetch('data.json?t=' + Date.now()).then(r=>r.json()).then(data => {
+      const summary = data.payment_summary || {};
+      const unpaidRows = (data.registered_unpaid && data.registered_unpaid.rows) || [];
+      const total = summary.total_registered || 0;
+      const paid = summary.paid || 0;
+      const unpaid = summary.unpaid || unpaidRows.filter(r => r['注册缴费状态'] === '已注册未缴费').length || 0;
+      document.getElementById('meta').textContent = `数据截止时间：${val(data.meta && data.meta.generated_at)} ｜ 未缴费清单：${val(data.registered_unpaid && data.registered_unpaid.source_file) || '未找到'}`;
+      document.getElementById('dashboard').innerHTML = [
+        `<div class="metric"><b>${total}</b><span>总注册人数</span></div>`,
+        `<div class="metric paid"><b>${paid}</b><span>已缴费人数</span></div>`,
+        `<a class="metric unpaid" href="registered-unpaid.html"><b>${unpaid}</b><span>未缴费人数</span><small>点击查看未缴费人员信息表</small></a>`,
+      ].join('');
+    });
+  </script>
 </body>
 </html>
