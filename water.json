@@ -1,15 +1,15 @@
 {
   "meta": {
     "title": "数字水圈论坛报告查询",
-    "generated_at": "2026-05-09 08:30",
-    "source_file": "20260509083204论文导出_统计.xlsx",
+    "generated_at": "2026-05-09 09:00",
+    "source_file": "20260509091114论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "数字水圈论坛"
   },
   "summary": [
     {
       "会议名称": "数字水圈论坛",
-      "口头报告": 107,
+      "口头报告": 108,
       "墙报": 14
     }
   ],
@@ -67,12 +67,12 @@
     {
       "会议名称": "数字水圈论坛",
       "会场名称": "冰雪水文遥感与前沿技术",
-      "口头报告": 16,
+      "口头报告": 17,
       "墙报": 2,
       "Unnamed: 3": "",
       "Unnamed: 4": "",
       "图表标签": "冰雪水文遥感与前沿技术",
-      "总计": 18
+      "总计": 19
     },
     {
       "会议名称": "数字水圈论坛",
@@ -1169,6 +1169,20 @@
     {
       "meeting": "数字水圈论坛",
       "topic": "冰雪水文遥感与前沿技术",
+      "paper_no": "",
+      "upload_date": "2025-05-09",
+      "report_type_code": "oral",
+      "report_type_label": "口头报告",
+      "speaker": "邱玉宝",
+      "identity": "研究员",
+      "institution": "中科院空天信息创新研究院",
+      "title": "短时间间隔高时空分辨率海冰密集度变化研究",
+      "payment": "未缴费",
+      "payment_paid": false
+    },
+    {
+      "meeting": "数字水圈论坛",
+      "topic": "冰雪水文遥感与前沿技术",
       "paper_no": "125-006",
       "upload_date": "2026-04-29",
       "report_type_code": "poster",
@@ -1863,6 +1877,13 @@
     },
     {
       "meeting": "数字水圈论坛",
+      "institution": "中国科学院国家空间科学中心",
+      "oral": 4,
+      "poster": 0,
+      "total": 4
+    },
+    {
+      "meeting": "数字水圈论坛",
       "institution": "中国科学院青藏高原研究所",
       "oral": 3,
       "poster": 1,
@@ -1871,13 +1892,6 @@
     {
       "meeting": "数字水圈论坛",
       "institution": "西南大学",
-      "oral": 4,
-      "poster": 0,
-      "total": 4
-    },
-    {
-      "meeting": "数字水圈论坛",
-      "institution": "中国科学院国家空间科学中心",
       "oral": 4,
       "poster": 0,
       "total": 4
@@ -1898,28 +1912,7 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "华东师范大学",
-      "oral": 2,
-      "poster": 0,
-      "total": 2
-    },
-    {
-      "meeting": "数字水圈论坛",
       "institution": "兰州大学",
-      "oral": 2,
-      "poster": 0,
-      "total": 2
-    },
-    {
-      "meeting": "数字水圈论坛",
-      "institution": "中国矿业大学（北京）",
-      "oral": 2,
-      "poster": 0,
-      "total": 2
-    },
-    {
-      "meeting": "数字水圈论坛",
-      "institution": "国家卫星气象中心（国家空间天气监测预警中心）",
       "oral": 2,
       "poster": 0,
       "total": 2
@@ -1933,7 +1926,35 @@
     },
     {
       "meeting": "数字水圈论坛",
+      "institution": "华东师范大学",
+      "oral": 2,
+      "poster": 0,
+      "total": 2
+    },
+    {
+      "meeting": "数字水圈论坛",
+      "institution": "四川大学",
+      "oral": 2,
+      "poster": 0,
+      "total": 2
+    },
+    {
+      "meeting": "数字水圈论坛",
+      "institution": "国家卫星气象中心（国家空间天气监测预警中心）",
+      "oral": 2,
+      "poster": 0,
+      "total": 2
+    },
+    {
+      "meeting": "数字水圈论坛",
       "institution": "三峡大学",
+      "oral": 2,
+      "poster": 0,
+      "total": 2
+    },
+    {
+      "meeting": "数字水圈论坛",
+      "institution": "中国矿业大学（北京）",
       "oral": 2,
       "poster": 0,
       "total": 2
@@ -1968,13 +1989,6 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "四川大学",
-      "oral": 2,
-      "poster": 0,
-      "total": 2
-    },
-    {
-      "meeting": "数字水圈论坛",
       "institution": "东华理工大学",
       "oral": 1,
       "poster": 0,
@@ -1990,6 +2004,13 @@
     {
       "meeting": "数字水圈论坛",
       "institution": "中国气象科学研究院",
+      "oral": 1,
+      "poster": 0,
+      "total": 1
+    },
+    {
+      "meeting": "数字水圈论坛",
+      "institution": "中国农业科学院农业资源与农业区划研究所",
       "oral": 1,
       "poster": 0,
       "total": 1
@@ -2024,13 +2045,6 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "中国科学院西北生态环境资源研究院",
-      "oral": 1,
-      "poster": 0,
-      "total": 1
-    },
-    {
-      "meeting": "数字水圈论坛",
       "institution": "中国科学院重庆绿色智能技术研究院",
       "oral": 1,
       "poster": 0,
@@ -2038,7 +2052,14 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "中国农业科学院农业资源与农业区划研究所",
+      "institution": "中国科学院西北生态环境资源研究院",
+      "oral": 1,
+      "poster": 0,
+      "total": 1
+    },
+    {
+      "meeting": "数字水圈论坛",
+      "institution": "中科院空天信息创新研究院",
       "oral": 1,
       "poster": 0,
       "total": 1
@@ -2223,9 +2244,9 @@
     {
       "meeting": "数字水圈论坛",
       "name": "冰雪水文遥感与前沿技术",
-      "oral": 16,
+      "oral": 17,
       "poster": 2,
-      "total": 18
+      "total": 19
     },
     {
       "meeting": "数字水圈论坛",
