@@ -1,16 +1,16 @@
 {
   "meta": {
     "title": "数字水圈论坛报告查询",
-    "generated_at": "2026-05-08 21:00",
-    "source_file": "20260508211629论文导出_统计.xlsx",
+    "generated_at": "2026-05-09 08:00",
+    "source_file": "20260509081644论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "数字水圈论坛"
   },
   "summary": [
     {
       "会议名称": "数字水圈论坛",
-      "口头报告": 108,
-      "墙报": 13
+      "口头报告": 107,
+      "墙报": 14
     }
   ],
   "topics": [
@@ -47,8 +47,8 @@
     {
       "会议名称": "数字水圈论坛",
       "会场名称": "水环境安全与可持续发展",
-      "口头报告": 10,
-      "墙报": 0,
+      "口头报告": 9,
+      "墙报": 1,
       "Unnamed: 3": "",
       "Unnamed: 4": "",
       "图表标签": "水环境安全与可持续发展",
@@ -751,8 +751,8 @@
       "topic": "水环境安全与可持续发展",
       "paper_no": "122-010",
       "upload_date": "2026-05-08",
-      "report_type_code": "oral",
-      "report_type_label": "口头报告",
+      "report_type_code": "poster",
+      "report_type_label": "墙报",
       "speaker": "赵玉好",
       "identity": "在读博士",
       "institution": "北京师范大学",
@@ -1815,8 +1815,8 @@
     {
       "meeting": "数字水圈论坛",
       "institution": "北京师范大学",
-      "oral": 7,
-      "poster": 2,
+      "oral": 6,
+      "poster": 3,
       "total": 9
     },
     {
@@ -2265,8 +2265,8 @@
     {
       "meeting": "数字水圈论坛",
       "name": "水环境安全与可持续发展",
-      "oral": 10,
-      "poster": 0,
+      "oral": 9,
+      "poster": 1,
       "total": 10
     },
     {
