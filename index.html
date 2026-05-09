@@ -49,9 +49,9 @@
       const unpaid = summary.unpaid || unpaidRows.filter(r => r['注册缴费状态'] === '已注册未缴费').length || 0;
       document.getElementById('meta').textContent = `数据截止时间：${val(data.meta && data.meta.generated_at)} ｜ 未缴费清单：${val(data.registered_unpaid && data.registered_unpaid.source_file) || '未找到'}`;
       document.getElementById('dashboard').innerHTML = [
-        `<div class="metric"><b>${total}</b><span>总注册人数</span></div>`,
-        `<div class="metric paid"><b>${paid}</b><span>已缴费人数</span></div>`,
-        `<a class="metric unpaid" href="registered-unpaid.html"><b>${unpaid}</b><span>未缴费人数</span><small>点击查看未缴费人员信息表</small></a>`,
+        `<a class="metric" href="all-registrants.html"><b>${total}</b><span>总注册人数</span><small>点击查看所有注册人员</small></a>`,
+        `<a class="metric paid" href="all-registrants.html?status=${encodeURIComponent('已注册已缴费')}"><b>${paid}</b><span>已缴费人数</span><small>点击查看已缴费人员</small></a>`,
+        `<a class="metric unpaid" href="all-registrants.html?status=${encodeURIComponent('已注册未缴费')}"><b>${unpaid}</b><span>未缴费人数</span><small>点击查看未缴费人员信息表</small></a>`,
       ].join('');
     });
   </script>
