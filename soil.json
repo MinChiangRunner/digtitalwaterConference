@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "土壤水研究大会报告查询",
-    "generated_at": "2026-05-10 13:30",
-    "source_file": "20260510133205论文导出_统计.xlsx",
+    "generated_at": "2026-05-10 18:30",
+    "source_file": "20260510184456论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "土壤水研究大会"
   },
@@ -1474,7 +1474,7 @@
       "speaker": "牛连涛",
       "identity": "在读博士",
       "institution": "中国科学院地理科学与资源研究所",
-      "title": "全球尺度全剖面包气带储水量定量评估：重塑陆地水量平衡",
+      "title": "全球包气带储水量是传统估算值的十倍",
       "payment": "已缴费",
       "payment_paid": true
     },
