@@ -1,16 +1,16 @@
 {
   "meta": {
     "title": "土壤水研究大会报告查询",
-    "generated_at": "2026-05-09 22:00",
-    "source_file": "20260509221114论文导出_统计.xlsx",
+    "generated_at": "2026-05-10 12:00",
+    "source_file": "20260510121017论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "土壤水研究大会"
   },
   "summary": [
     {
       "会议名称": "土壤水研究大会",
-      "口头报告": 93,
-      "墙报": 20
+      "口头报告": 94,
+      "墙报": 21
     }
   ],
   "topics": [
@@ -18,11 +18,11 @@
       "会议名称": "土壤水研究大会",
       "会场名称": "土壤水空天遥感机理与方法",
       "口头报告": 18,
-      "墙报": 3,
+      "墙报": 4,
       "Unnamed: 3": "",
       "Unnamed: 4": "",
       "图表标签": "土壤水空天遥感机理与方法",
-      "总计": 21
+      "总计": 22
     },
     {
       "会议名称": "土壤水研究大会",
@@ -97,12 +97,12 @@
     {
       "会议名称": "土壤水研究大会",
       "会场名称": "人工智能与智慧土壤前沿",
-      "口头报告": 9,
+      "口头报告": 10,
       "墙报": 3,
       "Unnamed: 3": "",
       "Unnamed: 4": "",
       "图表标签": "人工智能与智慧土壤前沿",
-      "总计": 12
+      "总计": 13
     }
   ],
   "speakers": [
@@ -397,6 +397,20 @@
       "identity": "在读硕士",
       "institution": "北京师范大学",
       "title": "东北地区风云三号卫星土壤水分反演研究",
+      "payment": "未缴费",
+      "payment_paid": false
+    },
+    {
+      "meeting": "土壤水研究大会",
+      "topic": "土壤水空天遥感机理与方法",
+      "paper_no": "127-024",
+      "upload_date": "2026-05-10",
+      "report_type_code": "poster",
+      "report_type_label": "墙报",
+      "speaker": "何祺胜",
+      "identity": "副教授",
+      "institution": "河海大学",
+      "title": "融合物理机理与深度学习的土壤水分反演研究",
       "payment": "未缴费",
       "payment_paid": false
     },
@@ -1649,6 +1663,20 @@
     {
       "meeting": "土壤水研究大会",
       "topic": "人工智能与智慧土壤前沿",
+      "paper_no": "133-013",
+      "upload_date": "2026-05-10",
+      "report_type_code": "oral",
+      "report_type_label": "口头报告",
+      "speaker": "周星雨",
+      "identity": "在读博士",
+      "institution": "长春师范大学",
+      "title": "基于 DeepSeek 架构的气象—农业—水文干旱联合预测研究",
+      "payment": "未缴费",
+      "payment_paid": false
+    },
+    {
+      "meeting": "土壤水研究大会",
+      "topic": "人工智能与智慧土壤前沿",
       "paper_no": "133-004",
       "upload_date": "2026-04-21",
       "report_type_code": "poster",
@@ -1693,9 +1721,9 @@
     {
       "meeting": "土壤水研究大会",
       "institution": "长春师范大学",
-      "oral": 5,
+      "oral": 6,
       "poster": 5,
-      "total": 10
+      "total": 11
     },
     {
       "meeting": "土壤水研究大会",
@@ -1720,6 +1748,13 @@
     },
     {
       "meeting": "土壤水研究大会",
+      "institution": "河海大学",
+      "oral": 4,
+      "poster": 1,
+      "total": 5
+    },
+    {
+      "meeting": "土壤水研究大会",
       "institution": "西北农林科技大学",
       "oral": 4,
       "poster": 1,
@@ -1728,13 +1763,6 @@
     {
       "meeting": "土壤水研究大会",
       "institution": "清华大学",
-      "oral": 4,
-      "poster": 0,
-      "total": 4
-    },
-    {
-      "meeting": "土壤水研究大会",
-      "institution": "河海大学",
       "oral": 4,
       "poster": 0,
       "total": 4
@@ -2116,8 +2144,8 @@
       "meeting": "土壤水研究大会",
       "name": "土壤水空天遥感机理与方法",
       "oral": 18,
-      "poster": 3,
-      "total": 21
+      "poster": 4,
+      "total": 22
     },
     {
       "meeting": "土壤水研究大会",
@@ -2143,9 +2171,9 @@
     {
       "meeting": "土壤水研究大会",
       "name": "人工智能与智慧土壤前沿",
-      "oral": 9,
+      "oral": 10,
       "poster": 3,
-      "total": 12
+      "total": 13
     },
     {
       "meeting": "土壤水研究大会",

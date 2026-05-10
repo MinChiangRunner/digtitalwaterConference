@@ -1,15 +1,15 @@
 {
   "meta": {
     "title": "数字水圈论坛报告查询",
-    "generated_at": "2026-05-09 22:00",
-    "source_file": "20260509221114论文导出_统计.xlsx",
+    "generated_at": "2026-05-10 12:00",
+    "source_file": "20260510121017论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "数字水圈论坛"
   },
   "summary": [
     {
       "会议名称": "数字水圈论坛",
-      "口头报告": 110,
+      "口头报告": 112,
       "墙报": 15
     }
   ],
@@ -17,12 +17,12 @@
     {
       "会议名称": "数字水圈论坛",
       "会场名称": "地球水循环与全球变化",
-      "口头报告": 13,
+      "口头报告": 14,
       "墙报": 2,
       "Unnamed: 3": "",
       "Unnamed: 4": "",
       "图表标签": "地球水循环与全球变化",
-      "总计": 15
+      "总计": 16
     },
     {
       "会议名称": "数字水圈论坛",
@@ -57,12 +57,12 @@
     {
       "会议名称": "数字水圈论坛",
       "会场名称": "水灾害风险与极端事件",
-      "口头报告": 10,
+      "口头报告": 11,
       "墙报": 3,
       "Unnamed: 3": "",
       "Unnamed: 4": "",
       "图表标签": "水灾害风险与极端事件",
-      "总计": 13
+      "总计": 14
     },
     {
       "会议名称": "数字水圈论坛",
@@ -295,6 +295,20 @@
       "identity": "讲师",
       "institution": "东华理工大学",
       "title": "气候变暖加剧了全球气象-土壤干旱共现",
+      "payment": "未缴费",
+      "payment_paid": false
+    },
+    {
+      "meeting": "数字水圈论坛",
+      "topic": "地球水循环与全球变化",
+      "paper_no": "118-019",
+      "upload_date": "2026-05-09",
+      "report_type_code": "oral",
+      "report_type_label": "口头报告",
+      "speaker": "周武",
+      "identity": "研究员",
+      "institution": "国家卫星海洋应用中心",
+      "title": "中国海洋盐度探测卫星技术与应用",
       "payment": "未缴费",
       "payment_paid": false
     },
@@ -911,6 +925,20 @@
       "identity": "副教授",
       "institution": "三峡大学",
       "title": "基于事件尺度的干旱传递判别与分异模式研究",
+      "payment": "未缴费",
+      "payment_paid": false
+    },
+    {
+      "meeting": "数字水圈论坛",
+      "topic": "水灾害风险与极端事件",
+      "paper_no": "123-016",
+      "upload_date": "2026-05-10",
+      "report_type_code": "oral",
+      "report_type_label": "口头报告",
+      "speaker": "姜田亮",
+      "identity": "工程师",
+      "institution": "中国水利水电科学研究院",
+      "title": "生态系统服务对干旱缺水的渐进式响应机制",
       "payment": "未缴费",
       "payment_paid": false
     },
@@ -1926,7 +1954,7 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "西南大学",
+      "institution": "中国水利水电科学研究院",
       "oral": 4,
       "poster": 0,
       "total": 4
@@ -1947,10 +1975,10 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "中国水利水电科学研究院",
-      "oral": 3,
+      "institution": "西南大学",
+      "oral": 4,
       "poster": 0,
-      "total": 3
+      "total": 4
     },
     {
       "meeting": "数字水圈论坛",
@@ -1996,7 +2024,7 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "中国矿业大学（北京）",
+      "institution": "西北农林科技大学",
       "oral": 2,
       "poster": 0,
       "total": 2
@@ -2010,7 +2038,7 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "西北农林科技大学",
+      "institution": "国家卫星海洋应用中心",
       "oral": 2,
       "poster": 0,
       "total": 2
@@ -2031,14 +2059,14 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "东华理工大学",
-      "oral": 1,
+      "institution": "中国矿业大学（北京）",
+      "oral": 2,
       "poster": 0,
-      "total": 1
+      "total": 2
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "中国地质大学（北京）",
+      "institution": "东华理工大学",
       "oral": 1,
       "poster": 0,
       "total": 1
@@ -2052,7 +2080,7 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "中国农业科学院农业资源与农业区划研究所",
+      "institution": "中国地质大学（北京）",
       "oral": 1,
       "poster": 0,
       "total": 1
@@ -2115,7 +2143,7 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "国家卫星海洋应用中心",
+      "institution": "中国农业科学院农业资源与农业区划研究所",
       "oral": 1,
       "poster": 0,
       "total": 1
@@ -2129,14 +2157,14 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "南京地理与湖泊研究所",
-      "oral": 1,
-      "poster": 0,
+      "institution": "国家卫星气象中心",
+      "oral": 0,
+      "poster": 1,
       "total": 1
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "南京大学",
+      "institution": "南京地理与湖泊研究所",
       "oral": 1,
       "poster": 0,
       "total": 1
@@ -2164,9 +2192,9 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "国家卫星气象中心",
-      "oral": 0,
-      "poster": 1,
+      "institution": "南京大学",
+      "oral": 1,
+      "poster": 0,
       "total": 1
     },
     {
@@ -2299,6 +2327,13 @@
     },
     {
       "meeting": "数字水圈论坛",
+      "name": "地球水循环与全球变化",
+      "oral": 14,
+      "poster": 2,
+      "total": 16
+    },
+    {
+      "meeting": "数字水圈论坛",
       "name": "水文过程与水资源韧性",
       "oral": 14,
       "poster": 2,
@@ -2306,17 +2341,10 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "name": "地球水循环与全球变化",
-      "oral": 13,
-      "poster": 2,
-      "total": 15
-    },
-    {
-      "meeting": "数字水圈论坛",
       "name": "水灾害风险与极端事件",
-      "oral": 10,
+      "oral": 11,
       "poster": 3,
-      "total": 13
+      "total": 14
     },
     {
       "meeting": "数字水圈论坛",
