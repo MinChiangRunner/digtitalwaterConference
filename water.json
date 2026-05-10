@@ -1,15 +1,15 @@
 {
   "meta": {
     "title": "数字水圈论坛报告查询",
-    "generated_at": "2026-05-10 12:30",
-    "source_file": "20260510123421论文导出_统计.xlsx",
+    "generated_at": "2026-05-10 13:30",
+    "source_file": "20260510133205论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "数字水圈论坛"
   },
   "summary": [
     {
       "会议名称": "数字水圈论坛",
-      "口头报告": 112,
+      "口头报告": 113,
       "墙报": 15
     }
   ],
@@ -37,12 +37,12 @@
     {
       "会议名称": "数字水圈论坛",
       "会场名称": "水生态系统与服务功能",
-      "口头报告": 6,
+      "口头报告": 7,
       "墙报": 0,
       "Unnamed: 3": "",
       "Unnamed: 4": "",
       "图表标签": "水生态系统与服务功能",
-      "总计": 6
+      "总计": 7
     },
     {
       "会议名称": "数字水圈论坛",
@@ -591,6 +591,20 @@
       "title": "基于SDGSAT-1 MSI的河流水质监测评估",
       "payment": "已缴费",
       "payment_paid": true
+    },
+    {
+      "meeting": "数字水圈论坛",
+      "topic": "水生态系统与服务功能",
+      "paper_no": "121-003",
+      "upload_date": "2026-05-10",
+      "report_type_code": "oral",
+      "report_type_label": "口头报告",
+      "speaker": "栾金凯",
+      "identity": "讲师",
+      "institution": "南京信息工程大学",
+      "title": "黄河流域自然植被生长和人工植被恢复的生态水文效应的对比分析",
+      "payment": "未缴费",
+      "payment_paid": false
     },
     {
       "meeting": "数字水圈论坛",
@@ -1982,9 +1996,9 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "华中师范大学",
-      "oral": 1,
-      "poster": 1,
+      "institution": "南京信息工程大学",
+      "oral": 2,
+      "poster": 0,
       "total": 2
     },
     {
@@ -2003,16 +2017,16 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "国家卫星气象中心（国家空间天气监测预警中心）",
+      "institution": "兰州大学",
       "oral": 2,
       "poster": 0,
       "total": 2
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "兰州大学",
-      "oral": 2,
-      "poster": 0,
+      "institution": "华中师范大学",
+      "oral": 1,
+      "poster": 1,
       "total": 2
     },
     {
@@ -2059,17 +2073,17 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "中国矿业大学（北京）",
+      "institution": "国家卫星气象中心（国家空间天气监测预警中心）",
       "oral": 2,
       "poster": 0,
       "total": 2
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "东华理工大学",
-      "oral": 1,
+      "institution": "中国矿业大学（北京）",
+      "oral": 2,
       "poster": 0,
-      "total": 1
+      "total": 2
     },
     {
       "meeting": "数字水圈论坛",
@@ -2080,21 +2094,7 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "中国地质大学（北京）",
-      "oral": 1,
-      "poster": 0,
-      "total": 1
-    },
-    {
-      "meeting": "数字水圈论坛",
-      "institution": "南京信息工程大学",
-      "oral": 1,
-      "poster": 0,
-      "total": 1
-    },
-    {
-      "meeting": "数字水圈论坛",
-      "institution": "内蒙古大学",
+      "institution": "东华理工大学",
       "oral": 1,
       "poster": 0,
       "total": 1
@@ -2108,7 +2108,21 @@
     },
     {
       "meeting": "数字水圈论坛",
+      "institution": "内蒙古大学",
+      "oral": 1,
+      "poster": 0,
+      "total": 1
+    },
+    {
+      "meeting": "数字水圈论坛",
       "institution": "北京工业大学",
+      "oral": 1,
+      "poster": 0,
+      "total": 1
+    },
+    {
+      "meeting": "数字水圈论坛",
+      "institution": "中科院空天信息创新研究院",
       "oral": 1,
       "poster": 0,
       "total": 1
@@ -2129,7 +2143,7 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "中科院空天信息创新研究院",
+      "institution": "中国地质大学（北京）",
       "oral": 1,
       "poster": 0,
       "total": 1
@@ -2377,9 +2391,9 @@
     {
       "meeting": "数字水圈论坛",
       "name": "水生态系统与服务功能",
-      "oral": 6,
+      "oral": 7,
       "poster": 0,
-      "total": 6
+      "total": 7
     }
   ],
   "speaker_columns": [
