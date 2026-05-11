@@ -1,24 +1,24 @@
 {
   "meta": {
     "title": "数字水圈论坛报告查询",
-    "generated_at": "2026-05-11 11:00",
-    "source_file": "20260511110009论文导出_统计.xlsx",
+    "generated_at": "2026-05-11 14:00",
+    "source_file": "20260511140040论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "数字水圈论坛"
   },
   "summary": [
     {
       "会议名称": "数字水圈论坛",
-      "口头报告": 113,
-      "墙报": 16
+      "口头报告": 112,
+      "墙报": 17
     }
   ],
   "topics": [
     {
       "会议名称": "数字水圈论坛",
       "会场名称": "地球水循环与全球变化",
-      "口头报告": 14,
-      "墙报": 2,
+      "口头报告": 13,
+      "墙报": 3,
       "Unnamed: 3": "",
       "Unnamed: 4": "",
       "图表标签": "地球水循环与全球变化",
@@ -287,20 +287,6 @@
     {
       "meeting": "数字水圈论坛",
       "topic": "地球水循环与全球变化",
-      "paper_no": "118-018",
-      "upload_date": "2026-05-02",
-      "report_type_code": "oral",
-      "report_type_label": "口头报告",
-      "speaker": "熊振华",
-      "identity": "讲师",
-      "institution": "东华理工大学",
-      "title": "气候变暖加剧了全球气象-土壤干旱共现",
-      "payment": "未缴费",
-      "payment_paid": false
-    },
-    {
-      "meeting": "数字水圈论坛",
-      "topic": "地球水循环与全球变化",
       "paper_no": "118-019",
       "upload_date": "2026-05-09",
       "report_type_code": "oral",
@@ -339,6 +325,20 @@
       "title": "全球水分限制区植被对降水响应的敏感性和耦合强度差异研究",
       "payment": "已缴费",
       "payment_paid": true
+    },
+    {
+      "meeting": "数字水圈论坛",
+      "topic": "地球水循环与全球变化",
+      "paper_no": "118-018",
+      "upload_date": "2026-05-02",
+      "report_type_code": "poster",
+      "report_type_label": "墙报",
+      "speaker": "熊振华",
+      "identity": "讲师",
+      "institution": "东华理工大学",
+      "title": "气候变暖加剧全球气象-土壤干旱共现",
+      "payment": "未缴费",
+      "payment_paid": false
     },
     {
       "meeting": "数字水圈论坛",
@@ -2102,8 +2102,8 @@
     {
       "meeting": "数字水圈论坛",
       "institution": "东华理工大学",
-      "oral": 1,
-      "poster": 0,
+      "oral": 0,
+      "poster": 1,
       "total": 1
     },
     {
@@ -2363,8 +2363,8 @@
     {
       "meeting": "数字水圈论坛",
       "name": "地球水循环与全球变化",
-      "oral": 14,
-      "poster": 2,
+      "oral": 13,
+      "poster": 3,
       "total": 16
     },
     {
