@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "土壤水研究大会报告查询",
-    "generated_at": "2026-05-11 08:00",
-    "source_file": "20260511080009论文导出_统计.xlsx",
+    "generated_at": "2026-05-11 11:00",
+    "source_file": "20260511110009论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "土壤水研究大会"
   },
@@ -10,7 +10,7 @@
     {
       "会议名称": "土壤水研究大会",
       "口头报告": 95,
-      "墙报": 21
+      "墙报": 22
     }
   ],
   "topics": [
@@ -28,11 +28,11 @@
       "会议名称": "土壤水研究大会",
       "会场名称": "土壤水分地面传感与检验技术",
       "口头报告": 12,
-      "墙报": 0,
+      "墙报": 1,
       "Unnamed: 3": "",
       "Unnamed: 4": "",
       "图表标签": "土壤水分地面传感与检验技术",
-      "总计": 12
+      "总计": 13
     },
     {
       "会议名称": "土壤水研究大会",
@@ -595,6 +595,20 @@
       "title": "A novel diversity-aware sampling method for global soil moisture prediction",
       "payment": "未缴费",
       "payment_paid": false
+    },
+    {
+      "meeting": "土壤水研究大会",
+      "topic": "土壤水分地面传感与检验技术",
+      "paper_no": "129-013",
+      "upload_date": "2026-05-11",
+      "report_type_code": "poster",
+      "report_type_label": "墙报",
+      "speaker": "马春锋",
+      "identity": "副研究员",
+      "institution": "中国科学院西北生态环境资源研究院",
+      "title": "冻融循环过程中的土壤水热冰观测试验设想与初步设计",
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "土壤水研究大会",
@@ -1790,16 +1804,16 @@
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "中国科学院空天信息创新研究院",
-      "oral": 3,
-      "poster": 0,
+      "institution": "中国科学院西北生态环境资源研究院",
+      "oral": 2,
+      "poster": 1,
       "total": 3
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "江汉大学",
-      "oral": 1,
-      "poster": 2,
+      "institution": "中国科学院空天信息创新研究院",
+      "oral": 3,
+      "poster": 0,
       "total": 3
     },
     {
@@ -1818,16 +1832,16 @@
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "同济大学",
+      "institution": "江汉大学",
       "oral": 1,
-      "poster": 1,
-      "total": 2
+      "poster": 2,
+      "total": 3
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "三峡大学",
-      "oral": 2,
-      "poster": 0,
+      "institution": "同济大学",
+      "oral": 1,
+      "poster": 1,
       "total": 2
     },
     {
@@ -1874,14 +1888,14 @@
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "中国科学院西北生态环境资源研究院",
+      "institution": "中山大学地理科学与规划学院",
       "oral": 2,
       "poster": 0,
       "total": 2
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "中山大学地理科学与规划学院",
+      "institution": "三峡大学",
       "oral": 2,
       "poster": 0,
       "total": 2
@@ -2193,8 +2207,8 @@
       "meeting": "土壤水研究大会",
       "name": "土壤水分地面传感与检验技术",
       "oral": 12,
-      "poster": 0,
-      "total": 12
+      "poster": 1,
+      "total": 13
     },
     {
       "meeting": "土壤水研究大会",
