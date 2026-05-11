@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "土壤水研究大会报告查询",
-    "generated_at": "2026-05-11 14:00",
-    "source_file": "20260511140040论文导出_统计.xlsx",
+    "generated_at": "2026-05-11 17:00",
+    "source_file": "20260511170009论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "土壤水研究大会"
   },
@@ -355,8 +355,8 @@
       "identity": "助理研究员",
       "institution": "中国科学院国家空间科学中心",
       "title": "HY-4A/MICAP土壤水分遥感反演初探",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "土壤水研究大会",
@@ -411,8 +411,8 @@
       "identity": "在读硕士",
       "institution": "北京师范大学",
       "title": "东北地区风云三号卫星土壤水分反演研究",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "土壤水研究大会",
@@ -425,8 +425,8 @@
       "identity": "副教授",
       "institution": "河海大学",
       "title": "融合物理机理与深度学习的土壤水分反演研究",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "土壤水研究大会",
@@ -1251,8 +1251,8 @@
       "identity": "教授",
       "institution": "太原理工大学",
       "title": "基于物理信息神经网络的土壤水分运动方程反问题求解研究",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "土壤水研究大会",
@@ -1279,8 +1279,8 @@
       "identity": "教授",
       "institution": "西安理工大学",
       "title": "基于土壤水盐运移的根系生长动力学模型",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "土壤水研究大会",
@@ -1391,7 +1391,7 @@
       "identity": "研究员",
       "institution": "中国科学院遗传发育所农业资源研究中心",
       "title": "华北平原农田水分高效利用机理与技术",
-      "payment": "未缴费",
+      "payment": "欠费",
       "payment_paid": false
     },
     {
@@ -1405,8 +1405,8 @@
       "identity": "助理研究员",
       "institution": "中山大学地理科学与规划学院",
       "title": "新疆棉田总初级生产力对土壤—大气复合干旱的响应及模型不确定性",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "土壤水研究大会",
@@ -1475,8 +1475,8 @@
       "identity": "讲师",
       "institution": "华北水利水电大学",
       "title": "基于VORS框架的黄河流域生态系统健康评价及其驱动因素的阈值效应",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "土壤水研究大会",
@@ -1713,8 +1713,8 @@
       "identity": "老师",
       "institution": "中山大学",
       "title": "基于站点观测的中国1km土壤湿度日尺度数据集",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "土壤水研究大会",

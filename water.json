@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "数字水圈论坛报告查询",
-    "generated_at": "2026-05-11 14:00",
-    "source_file": "20260511140040论文导出_统计.xlsx",
+    "generated_at": "2026-05-11 17:00",
+    "source_file": "20260511170009论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "数字水圈论坛"
   },
@@ -183,8 +183,8 @@
       "identity": "在读博士",
       "institution": "河海大学",
       "title": "全球变暖背景下地表水量收支变化及其大气过程分解",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "数字水圈论坛",
@@ -295,8 +295,8 @@
       "identity": "研究员",
       "institution": "国家卫星海洋应用中心",
       "title": "中国海洋盐度探测卫星技术与应用",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "数字水圈论坛",
@@ -393,8 +393,8 @@
       "identity": "教授",
       "institution": "广州大学",
       "title": "珠江流域水沙过程纵向非连续格局及其形成模式与遥感监测",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "数字水圈论坛",
@@ -547,8 +547,8 @@
       "identity": "在读硕士",
       "institution": "河南理工大学",
       "title": "三江源区水体面积对气候变化的响应及驱动因素分析",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "数字水圈论坛",
@@ -603,8 +603,8 @@
       "identity": "讲师",
       "institution": "南京信息工程大学",
       "title": "黄河流域自然植被生长和人工植被恢复的生态水文效应的对比分析",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "数字水圈论坛",
@@ -1289,8 +1289,8 @@
       "identity": "副教授",
       "institution": "南通大学",
       "title": "青藏高原积雪动力-统计降尺度",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "数字水圈论坛",
@@ -1891,8 +1891,8 @@
       "identity": "在读硕士",
       "institution": "中山大学",
       "title": "基于 Transformer 的地下水–土壤水耦合过程代理建模研究",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "数字水圈论坛",
