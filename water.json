@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "数字水圈论坛报告查询",
-    "generated_at": "2026-05-12 14:00",
-    "source_file": "20260512140010论文导出_统计.xlsx",
+    "generated_at": "2026-05-12 17:00",
+    "source_file": "20260512170011论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "数字水圈论坛"
   },
@@ -10,7 +10,7 @@
     {
       "会议名称": "数字水圈论坛",
       "口头报告": 112,
-      "墙报": 17
+      "墙报": 20
     }
   ],
   "topics": [
@@ -38,11 +38,11 @@
       "会议名称": "数字水圈论坛",
       "会场名称": "水生态系统与服务功能",
       "口头报告": 7,
-      "墙报": 0,
+      "墙报": 3,
       "Unnamed: 3": "",
       "Unnamed: 4": "",
       "图表标签": "水生态系统与服务功能",
-      "总计": 7
+      "总计": 10
     },
     {
       "会议名称": "数字水圈论坛",
@@ -661,6 +661,48 @@
       "title": "人工智能与机理模型共同守护干旱区水资源",
       "payment": "未缴费",
       "payment_paid": false
+    },
+    {
+      "meeting": "数字水圈论坛",
+      "topic": "水生态系统与服务功能",
+      "paper_no": "121-004",
+      "upload_date": "2026-05-12",
+      "report_type_code": "poster",
+      "report_type_label": "墙报",
+      "speaker": "熊俊峰",
+      "identity": "助理研究员",
+      "institution": "中国科学院南京地理与湖泊研究所",
+      "title": "人工智能与机理模型共同守护干旱区水资源",
+      "payment": "已缴费",
+      "payment_paid": true
+    },
+    {
+      "meeting": "数字水圈论坛",
+      "topic": "水生态系统与服务功能",
+      "paper_no": "121-005",
+      "upload_date": "2026-05-12",
+      "report_type_code": "poster",
+      "report_type_label": "墙报",
+      "speaker": "熊俊峰",
+      "identity": "助理研究员",
+      "institution": "中国科学院南京地理与湖泊研究所",
+      "title": "大语言模型驱动下的全球流域生态系统服务研究演化",
+      "payment": "已缴费",
+      "payment_paid": true
+    },
+    {
+      "meeting": "数字水圈论坛",
+      "topic": "水生态系统与服务功能",
+      "paper_no": "121-006",
+      "upload_date": "2026-05-12",
+      "report_type_code": "poster",
+      "report_type_label": "墙报",
+      "speaker": "熊俊峰",
+      "identity": "助理研究员",
+      "institution": "中国科学院南京地理与湖泊研究所",
+      "title": "立体观测与AI技术结合引领内陆水体碳循环研究",
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "数字水圈论坛",
@@ -1926,6 +1968,13 @@
   "units": [
     {
       "meeting": "数字水圈论坛",
+      "institution": "中国科学院南京地理与湖泊研究所",
+      "oral": 7,
+      "poster": 3,
+      "total": 10
+    },
+    {
+      "meeting": "数字水圈论坛",
       "institution": "北京师范大学",
       "oral": 7,
       "poster": 3,
@@ -1943,13 +1992,6 @@
       "institution": "中国科学院空天信息创新研究院",
       "oral": 5,
       "poster": 2,
-      "total": 7
-    },
-    {
-      "meeting": "数字水圈论坛",
-      "institution": "中国科学院南京地理与湖泊研究所",
-      "oral": 7,
-      "poster": 0,
       "total": 7
     },
     {
@@ -2404,17 +2446,17 @@
     },
     {
       "meeting": "数字水圈论坛",
+      "name": "水生态系统与服务功能",
+      "oral": 7,
+      "poster": 3,
+      "total": 10
+    },
+    {
+      "meeting": "数字水圈论坛",
       "name": "海洋动力与海气相互作用",
       "oral": 8,
       "poster": 0,
       "total": 8
-    },
-    {
-      "meeting": "数字水圈论坛",
-      "name": "水生态系统与服务功能",
-      "oral": 7,
-      "poster": 0,
-      "total": 7
     }
   ],
   "speaker_columns": [
