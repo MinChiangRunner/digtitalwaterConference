@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "土壤水研究大会报告查询",
-    "generated_at": "2026-05-11 20:00",
-    "source_file": "20260511200014论文导出_统计.xlsx",
+    "generated_at": "2026-05-12 08:00",
+    "source_file": "20260512080011论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "土壤水研究大会"
   },
@@ -10,7 +10,7 @@
     {
       "会议名称": "土壤水研究大会",
       "口头报告": 95,
-      "墙报": 22
+      "墙报": 23
     }
   ],
   "topics": [
@@ -18,11 +18,11 @@
       "会议名称": "土壤水研究大会",
       "会场名称": "土壤水空天遥感机理与方法",
       "口头报告": 19,
-      "墙报": 4,
+      "墙报": 5,
       "Unnamed: 3": "",
       "Unnamed: 4": "",
       "图表标签": "土壤水空天遥感机理与方法",
-      "总计": 23
+      "总计": 24
     },
     {
       "会议名称": "土壤水研究大会",
@@ -425,6 +425,20 @@
       "identity": "副教授",
       "institution": "河海大学",
       "title": "融合物理机理与深度学习的土壤水分反演研究",
+      "payment": "已缴费",
+      "payment_paid": true
+    },
+    {
+      "meeting": "土壤水研究大会",
+      "topic": "土壤水空天遥感机理与方法",
+      "paper_no": "127-026",
+      "upload_date": "2026-05-11",
+      "report_type_code": "poster",
+      "report_type_label": "墙报",
+      "speaker": "邱建秀",
+      "identity": "教授",
+      "institution": "中山大学",
+      "title": "动态约束冠层散射的微波土壤水分反演",
       "payment": "已缴费",
       "payment_paid": true
     },
@@ -1764,8 +1778,8 @@
       "meeting": "土壤水研究大会",
       "institution": "中山大学",
       "oral": 4,
-      "poster": 1,
-      "total": 5
+      "poster": 2,
+      "total": 6
     },
     {
       "meeting": "土壤水研究大会",
@@ -2172,8 +2186,8 @@
       "meeting": "土壤水研究大会",
       "name": "土壤水空天遥感机理与方法",
       "oral": 19,
-      "poster": 4,
-      "total": 23
+      "poster": 5,
+      "total": 24
     },
     {
       "meeting": "土壤水研究大会",
