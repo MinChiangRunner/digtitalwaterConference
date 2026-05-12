@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "土壤水研究大会报告查询",
-    "generated_at": "2026-05-12 17:00",
-    "source_file": "20260512170011论文导出_统计.xlsx",
+    "generated_at": "2026-05-12 20:00",
+    "source_file": "20260512200010论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "土壤水研究大会"
   },
@@ -495,8 +495,8 @@
       "identity": "研究员",
       "institution": "中国科学院东北地理与农业生态研究所",
       "title": "引入土壤属性影响的土壤传感器通用定标方法",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "土壤水研究大会",
@@ -551,8 +551,8 @@
       "identity": "在读硕士",
       "institution": "中国科学院空天信息创新研究院",
       "title": "协同AI与传统插值的全球尺度遥感土壤水分产品填补新算法",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "土壤水研究大会",
@@ -579,8 +579,8 @@
       "identity": "在读硕士",
       "institution": "中国科学院空天信息创新研究院",
       "title": "基于ETC/IVd框架的主被动微波土壤水分数据融合新方法",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "土壤水研究大会",
