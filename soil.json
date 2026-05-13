@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "土壤水研究大会报告查询",
-    "generated_at": "2026-05-13 17:00",
-    "source_file": "20260513170010论文导出_统计.xlsx",
+    "generated_at": "2026-05-13 20:00",
+    "source_file": "20260513200009论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "土壤水研究大会"
   },
@@ -789,8 +789,8 @@
       "identity": "讲师",
       "institution": "山西大学",
       "title": "多源数据同化与机器学习融合的土壤水分估算研究",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "土壤水研究大会",
@@ -1153,8 +1153,8 @@
       "identity": "副教授",
       "institution": "三峡大学",
       "title": "基于多源数据的水稻干旱和洪涝灾害遥感监测方法研究",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "土壤水研究大会",
@@ -1545,8 +1545,8 @@
       "identity": "副教授",
       "institution": "山东农业大学",
       "title": "耦合土壤水分与植被光学厚度的农业干旱监测研究",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "土壤水研究大会",
