@@ -1,16 +1,16 @@
 {
   "meta": {
     "title": "数字水圈论坛报告查询",
-    "generated_at": "2026-05-13 14:00",
-    "source_file": "20260513140010论文导出_统计.xlsx",
+    "generated_at": "2026-05-13 17:00",
+    "source_file": "20260513170010论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "数字水圈论坛"
   },
   "summary": [
     {
       "会议名称": "数字水圈论坛",
-      "口头报告": 112,
-      "墙报": 20
+      "口头报告": 109,
+      "墙报": 18
     }
   ],
   "topics": [
@@ -57,12 +57,12 @@
     {
       "会议名称": "数字水圈论坛",
       "会场名称": "水灾害风险与极端事件",
-      "口头报告": 11,
-      "墙报": 3,
+      "口头报告": 9,
+      "墙报": 1,
       "Unnamed: 3": "",
       "Unnamed: 4": "",
       "图表标签": "水灾害风险与极端事件",
-      "总计": 14
+      "总计": 10
     },
     {
       "会议名称": "数字水圈论坛",
@@ -107,12 +107,12 @@
     {
       "会议名称": "数字水圈论坛",
       "会场名称": "地球水圈大数据与人工智能",
-      "口头报告": 14,
+      "口头报告": 13,
       "墙报": 2,
       "Unnamed: 3": "",
       "Unnamed: 4": "",
       "图表标签": "地球水圈大数据与人工智能",
-      "总计": 16
+      "总计": 15
     }
   ],
   "speakers": [
@@ -945,34 +945,6 @@
     {
       "meeting": "数字水圈论坛",
       "topic": "水灾害风险与极端事件",
-      "paper_no": "123-011",
-      "upload_date": "2026-04-30",
-      "report_type_code": "oral",
-      "report_type_label": "口头报告",
-      "speaker": "周诗玙",
-      "identity": "在读博士",
-      "institution": "中国科学院大气物理研究所",
-      "title": "季节内振荡的协同作用加剧了2024年河南旱涝急转",
-      "payment": "未缴费",
-      "payment_paid": false
-    },
-    {
-      "meeting": "数字水圈论坛",
-      "topic": "水灾害风险与极端事件",
-      "paper_no": "123-014",
-      "upload_date": "2026-05-01",
-      "report_type_code": "oral",
-      "report_type_label": "口头报告",
-      "speaker": "李晨远",
-      "identity": "在读博士",
-      "institution": "中国科学院大气物理研究所",
-      "title": "考虑灌溉影响的全球陆面水文模型研发",
-      "payment": "未缴费",
-      "payment_paid": false
-    },
-    {
-      "meeting": "数字水圈论坛",
-      "topic": "水灾害风险与极端事件",
       "paper_no": "123-015",
       "upload_date": "2026-05-08",
       "report_type_code": "oral",
@@ -1011,34 +983,6 @@
       "title": "China’s 1 km Daily Surface Soil Moisture Fusion Dataset (2000–2025) Based on Explainable Machine Learning",
       "payment": "已缴费",
       "payment_paid": true
-    },
-    {
-      "meeting": "数字水圈论坛",
-      "topic": "水灾害风险与极端事件",
-      "paper_no": "123-012",
-      "upload_date": "2026-04-30",
-      "report_type_code": "poster",
-      "report_type_label": "墙报",
-      "speaker": "冯越",
-      "identity": "在读博士",
-      "institution": "中国科学院大气物理研究所",
-      "title": "2025河南旱涝急转事件的归因分析",
-      "payment": "未缴费",
-      "payment_paid": false
-    },
-    {
-      "meeting": "数字水圈论坛",
-      "topic": "水灾害风险与极端事件",
-      "paper_no": "123-013",
-      "upload_date": "2026-04-30",
-      "report_type_code": "poster",
-      "report_type_label": "墙报",
-      "speaker": "陈李楠",
-      "identity": "在读硕士",
-      "institution": "中国科学院大气物理研究所",
-      "title": "基于Vision Transformer与CNN土壤湿度预报的旱涝复合极端事件智能预测",
-      "payment": "未缴费",
-      "payment_paid": false
     },
     {
       "meeting": "数字水圈论坛",
@@ -1771,20 +1715,6 @@
     {
       "meeting": "数字水圈论坛",
       "topic": "地球水圈大数据与人工智能",
-      "paper_no": "126-005",
-      "upload_date": "2026-04-23",
-      "report_type_code": "oral",
-      "report_type_label": "口头报告",
-      "speaker": "杨晨",
-      "identity": "研究员",
-      "institution": "中山大学",
-      "title": "A hybrid physics–ML framework for integrating groundwater dynamics into land surface modeling",
-      "payment": "已缴费",
-      "payment_paid": true
-    },
-    {
-      "meeting": "数字水圈论坛",
-      "topic": "地球水圈大数据与人工智能",
       "paper_no": "126-006",
       "upload_date": "2026-04-27",
       "report_type_code": "oral",
@@ -1982,13 +1912,6 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "中国科学院大气物理研究所",
-      "oral": 6,
-      "poster": 2,
-      "total": 8
-    },
-    {
-      "meeting": "数字水圈论坛",
       "institution": "中国科学院空天信息创新研究院",
       "oral": 5,
       "poster": 2,
@@ -2003,13 +1926,6 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "中山大学",
-      "oral": 5,
-      "poster": 0,
-      "total": 5
-    },
-    {
-      "meeting": "数字水圈论坛",
       "institution": "河海大学",
       "oral": 5,
       "poster": 0,
@@ -2017,7 +1933,21 @@
     },
     {
       "meeting": "数字水圈论坛",
+      "institution": "中国科学院大气物理研究所",
+      "oral": 4,
+      "poster": 0,
+      "total": 4
+    },
+    {
+      "meeting": "数字水圈论坛",
       "institution": "中国科学院国家空间科学中心",
+      "oral": 4,
+      "poster": 0,
+      "total": 4
+    },
+    {
+      "meeting": "数字水圈论坛",
+      "institution": "中山大学",
       "oral": 4,
       "poster": 0,
       "total": 4
@@ -2397,13 +2327,6 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "name": "地球水圈大数据与人工智能",
-      "oral": 14,
-      "poster": 2,
-      "total": 16
-    },
-    {
-      "meeting": "数字水圈论坛",
       "name": "地球水循环与全球变化",
       "oral": 13,
       "poster": 3,
@@ -2418,10 +2341,10 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "name": "水灾害风险与极端事件",
-      "oral": 11,
-      "poster": 3,
-      "total": 14
+      "name": "地球水圈大数据与人工智能",
+      "oral": 13,
+      "poster": 2,
+      "total": 15
     },
     {
       "meeting": "数字水圈论坛",
@@ -2433,6 +2356,13 @@
     {
       "meeting": "数字水圈论坛",
       "name": "水-能-粮协同与区域安全",
+      "oral": 9,
+      "poster": 1,
+      "total": 10
+    },
+    {
+      "meeting": "数字水圈论坛",
+      "name": "水灾害风险与极端事件",
       "oral": 9,
       "poster": 1,
       "total": 10
