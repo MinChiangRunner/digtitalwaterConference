@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "土壤水研究大会报告查询",
-    "generated_at": "2026-05-13 08:00",
-    "source_file": "20260513080010论文导出_统计.xlsx",
+    "generated_at": "2026-05-13 11:00",
+    "source_file": "20260513110011论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "土壤水研究大会"
   },
@@ -1405,8 +1405,8 @@
       "identity": "研究员",
       "institution": "中国科学院遗传发育所农业资源研究中心",
       "title": "华北平原农田水分高效利用机理与技术",
-      "payment": "欠费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "土壤水研究大会",

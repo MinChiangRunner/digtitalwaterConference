@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "数字水圈论坛报告查询",
-    "generated_at": "2026-05-13 08:00",
-    "source_file": "20260513080010论文导出_统计.xlsx",
+    "generated_at": "2026-05-13 11:00",
+    "source_file": "20260513110011论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "数字水圈论坛"
   },
@@ -1051,8 +1051,8 @@
       "identity": "",
       "institution": "北京师范大学地理科学学部",
       "title": "典型积雪覆盖区域的积雪散射模型验证与MCMC雪深反演",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "数字水圈论坛",
