@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "数字水圈论坛报告查询",
-    "generated_at": "2026-05-14 17:00",
-    "source_file": "20260514170010论文导出_统计.xlsx",
+    "generated_at": "2026-05-14 20:00",
+    "source_file": "20260514200010论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "数字水圈论坛"
   },
@@ -827,8 +827,8 @@
       "identity": "副研究员",
       "institution": "中国科学院重庆绿色智能技术研究院",
       "title": "基于稀疏遥感数据的三峡水华时空预测研究",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "数字水圈论坛",

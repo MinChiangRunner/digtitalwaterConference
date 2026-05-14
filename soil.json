@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "土壤水研究大会报告查询",
-    "generated_at": "2026-05-14 17:00",
-    "source_file": "20260514170010论文导出_统计.xlsx",
+    "generated_at": "2026-05-14 20:00",
+    "source_file": "20260514200010论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "土壤水研究大会"
   },
@@ -957,8 +957,8 @@
       "identity": "讲师",
       "institution": "中南林业科技大学",
       "title": "基于潜空间扩散模型的多源遥感土壤水分数据同化",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "土壤水研究大会",
