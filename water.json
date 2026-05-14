@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "数字水圈论坛报告查询",
-    "generated_at": "2026-05-13 20:00",
-    "source_file": "20260513200009论文导出_统计.xlsx",
+    "generated_at": "2026-05-14 08:00",
+    "source_file": "20260514080010论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "数字水圈论坛"
   },
@@ -10,7 +10,7 @@
     {
       "会议名称": "数字水圈论坛",
       "口头报告": 109,
-      "墙报": 18
+      "墙报": 20
     }
   ],
   "topics": [
@@ -48,21 +48,21 @@
       "会议名称": "数字水圈论坛",
       "会场名称": "水环境安全与可持续发展",
       "口头报告": 9,
-      "墙报": 1,
+      "墙报": 2,
       "Unnamed: 3": "",
       "Unnamed: 4": "",
       "图表标签": "水环境安全与可持续发展",
-      "总计": 10
+      "总计": 11
     },
     {
       "会议名称": "数字水圈论坛",
       "会场名称": "水灾害风险与极端事件",
       "口头报告": 9,
-      "墙报": 1,
+      "墙报": 2,
       "Unnamed: 3": "",
       "Unnamed: 4": "",
       "图表标签": "水灾害风险与极端事件",
-      "总计": 10
+      "总计": 11
     },
     {
       "会议名称": "数字水圈论坛",
@@ -846,6 +846,20 @@
     },
     {
       "meeting": "数字水圈论坛",
+      "topic": "水环境安全与可持续发展",
+      "paper_no": "122-011",
+      "upload_date": "2026-05-13",
+      "report_type_code": "poster",
+      "report_type_label": "墙报",
+      "speaker": "杨恒丰",
+      "identity": "在读硕士",
+      "institution": "河南理工大学",
+      "title": "黄河流域水资源压力评估及驱动因素分析",
+      "payment": "未缴费",
+      "payment_paid": false
+    },
+    {
+      "meeting": "数字水圈论坛",
       "topic": "水灾害风险与极端事件",
       "paper_no": "123-001",
       "upload_date": "2026-04-12",
@@ -981,6 +995,20 @@
       "identity": "在读博士",
       "institution": "南京大学大气科学学院",
       "title": "China’s 1 km Daily Surface Soil Moisture Fusion Dataset (2000–2025) Based on Explainable Machine Learning",
+      "payment": "已缴费",
+      "payment_paid": true
+    },
+    {
+      "meeting": "数字水圈论坛",
+      "topic": "水灾害风险与极端事件",
+      "paper_no": "123-017",
+      "upload_date": "2026-05-13",
+      "report_type_code": "poster",
+      "report_type_label": "墙报",
+      "speaker": "汤彬",
+      "identity": "副研究员",
+      "institution": "中国科学院大气物理研究所",
+      "title": "Diverse effects of extreme precipitation over different timescales on global economic growth",
       "payment": "已缴费",
       "payment_paid": true
     },
@@ -1926,24 +1954,24 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "河海大学",
-      "oral": 5,
-      "poster": 0,
+      "institution": "中国科学院大气物理研究所",
+      "oral": 4,
+      "poster": 1,
       "total": 5
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "中国科学院大气物理研究所",
-      "oral": 4,
-      "poster": 0,
-      "total": 4
+      "institution": "河南理工大学",
+      "oral": 2,
+      "poster": 3,
+      "total": 5
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "中国科学院国家空间科学中心",
-      "oral": 4,
+      "institution": "河海大学",
+      "oral": 5,
       "poster": 0,
-      "total": 4
+      "total": 5
     },
     {
       "meeting": "数字水圈论坛",
@@ -1968,9 +1996,9 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "河南理工大学",
-      "oral": 2,
-      "poster": 2,
+      "institution": "中国科学院国家空间科学中心",
+      "oral": 4,
+      "poster": 0,
       "total": 4
     },
     {
@@ -2355,21 +2383,21 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "name": "水-能-粮协同与区域安全",
-      "oral": 9,
-      "poster": 1,
-      "total": 10
-    },
-    {
-      "meeting": "数字水圈论坛",
       "name": "水灾害风险与极端事件",
       "oral": 9,
-      "poster": 1,
-      "total": 10
+      "poster": 2,
+      "total": 11
     },
     {
       "meeting": "数字水圈论坛",
       "name": "水环境安全与可持续发展",
+      "oral": 9,
+      "poster": 2,
+      "total": 11
+    },
+    {
+      "meeting": "数字水圈论坛",
+      "name": "水-能-粮协同与区域安全",
       "oral": 9,
       "poster": 1,
       "total": 10
