@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "土壤水研究大会报告查询",
-    "generated_at": "2026-05-14 08:00",
-    "source_file": "20260514080010论文导出_统计.xlsx",
+    "generated_at": "2026-05-14 11:00",
+    "source_file": "20260514110009论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "土壤水研究大会"
   },
@@ -1612,7 +1612,7 @@
       "report_type_code": "oral",
       "report_type_label": "口头报告",
       "speaker": "宋文翔",
-      "identity": "博士后",
+      "identity": "无职称",
       "institution": "武汉大学",
       "title": "从数据中挖掘土壤水运动方程研究探索",
       "payment": "已缴费",

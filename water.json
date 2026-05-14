@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "数字水圈论坛报告查询",
-    "generated_at": "2026-05-14 08:00",
-    "source_file": "20260514080010论文导出_统计.xlsx",
+    "generated_at": "2026-05-14 11:00",
+    "source_file": "20260514110009论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "数字水圈论坛"
   },
@@ -10,7 +10,7 @@
     {
       "会议名称": "数字水圈论坛",
       "口头报告": 109,
-      "墙报": 20
+      "墙报": 21
     }
   ],
   "topics": [
@@ -28,11 +28,11 @@
       "会议名称": "数字水圈论坛",
       "会场名称": "水文过程与水资源韧性",
       "口头报告": 14,
-      "墙报": 2,
+      "墙报": 3,
       "Unnamed: 3": "",
       "Unnamed: 4": "",
       "图表标签": "水文过程与水资源韧性",
-      "总计": 16
+      "总计": 17
     },
     {
       "会议名称": "数字水圈论坛",
@@ -561,6 +561,20 @@
       "identity": "副教授",
       "institution": "郑州大学水利与交通学院",
       "title": "日光诱导叶绿素荧光驱动的生态水文过程机理建模与应用",
+      "payment": "已缴费",
+      "payment_paid": true
+    },
+    {
+      "meeting": "数字水圈论坛",
+      "topic": "水文过程与水资源韧性",
+      "paper_no": "119-018",
+      "upload_date": "2026-05-14",
+      "report_type_code": "poster",
+      "report_type_label": "墙报",
+      "speaker": "刘佳毅",
+      "identity": "在读硕士",
+      "institution": "中国科学院南京地理与湖泊i研究所",
+      "title": "长江流域TerraClimate径流数据多尺度精度评估与校正",
       "payment": "已缴费",
       "payment_paid": true
     },
@@ -1961,6 +1975,13 @@
     },
     {
       "meeting": "数字水圈论坛",
+      "institution": "河海大学",
+      "oral": 5,
+      "poster": 0,
+      "total": 5
+    },
+    {
+      "meeting": "数字水圈论坛",
       "institution": "河南理工大学",
       "oral": 2,
       "poster": 3,
@@ -1968,10 +1989,10 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "河海大学",
-      "oral": 5,
-      "poster": 0,
-      "total": 5
+      "institution": "中国科学院青藏高原研究所",
+      "oral": 3,
+      "poster": 1,
+      "total": 4
     },
     {
       "meeting": "数字水圈论坛",
@@ -1982,9 +2003,9 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "中国科学院青藏高原研究所",
-      "oral": 3,
-      "poster": 1,
+      "institution": "中国水利水电科学研究院",
+      "oral": 4,
+      "poster": 0,
       "total": 4
     },
     {
@@ -2003,10 +2024,10 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "中国水利水电科学研究院",
-      "oral": 4,
+      "institution": "三峡大学",
+      "oral": 2,
       "poster": 0,
-      "total": 4
+      "total": 2
     },
     {
       "meeting": "数字水圈论坛",
@@ -2017,9 +2038,9 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "华中师范大学",
-      "oral": 1,
-      "poster": 1,
+      "institution": "兰州大学",
+      "oral": 2,
+      "poster": 0,
       "total": 2
     },
     {
@@ -2031,7 +2052,7 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "兰州大学",
+      "institution": "空天信息大学",
       "oral": 2,
       "poster": 0,
       "total": 2
@@ -2052,9 +2073,9 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "三峡大学",
-      "oral": 2,
-      "poster": 0,
+      "institution": "华中师范大学",
+      "oral": 1,
+      "poster": 1,
       "total": 2
     },
     {
@@ -2087,13 +2108,6 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "空天信息大学",
-      "oral": 2,
-      "poster": 0,
-      "total": 2
-    },
-    {
-      "meeting": "数字水圈论坛",
       "institution": "华东师范大学",
       "oral": 2,
       "poster": 0,
@@ -2115,9 +2129,16 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "中国科学院东北地理与农业生态研究所",
+      "institution": "中国地质大学（北京）",
       "oral": 1,
       "poster": 0,
+      "total": 1
+    },
+    {
+      "meeting": "数字水圈论坛",
+      "institution": "中国科学院南京地理与湖泊i研究所",
+      "oral": 0,
+      "poster": 1,
       "total": 1
     },
     {
@@ -2171,14 +2192,14 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "中国气象科学研究院",
+      "institution": "中国科学院东北地理与农业生态研究所",
       "oral": 1,
       "poster": 0,
       "total": 1
     },
     {
       "meeting": "数字水圈论坛",
-      "institution": "中国地质大学（北京）",
+      "institution": "中国气象科学研究院",
       "oral": 1,
       "poster": 0,
       "total": 1
@@ -2355,16 +2376,16 @@
     },
     {
       "meeting": "数字水圈论坛",
-      "name": "地球水循环与全球变化",
-      "oral": 13,
+      "name": "水文过程与水资源韧性",
+      "oral": 14,
       "poster": 3,
-      "total": 16
+      "total": 17
     },
     {
       "meeting": "数字水圈论坛",
-      "name": "水文过程与水资源韧性",
-      "oral": 14,
-      "poster": 2,
+      "name": "地球水循环与全球变化",
+      "oral": 13,
+      "poster": 3,
       "total": 16
     },
     {
