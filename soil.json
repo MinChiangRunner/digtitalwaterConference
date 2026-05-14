@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "土壤水研究大会报告查询",
-    "generated_at": "2026-05-14 11:00",
-    "source_file": "20260514110009论文导出_统计.xlsx",
+    "generated_at": "2026-05-14 14:00",
+    "source_file": "20260514140010论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "土壤水研究大会"
   },
@@ -10,7 +10,7 @@
     {
       "会议名称": "土壤水研究大会",
       "口头报告": 94,
-      "墙报": 23
+      "墙报": 24
     }
   ],
   "topics": [
@@ -38,11 +38,11 @@
       "会议名称": "土壤水研究大会",
       "会场名称": "土壤水过程模拟与数据同化",
       "口头报告": 14,
-      "墙报": 2,
+      "墙报": 3,
       "Unnamed: 3": "",
       "Unnamed: 4": "",
       "图表标签": "土壤水过程模拟与数据同化",
-      "总计": 16
+      "总计": 17
     },
     {
       "会议名称": "土壤水研究大会",
@@ -845,6 +845,20 @@
       "identity": "在读硕士",
       "institution": "长春师范大学",
       "title": "A Dependency-Guided Symbolic Regression Framework for Overcoming Error Compensation in Hybrid AI–Physical Models",
+      "payment": "未缴费",
+      "payment_paid": false
+    },
+    {
+      "meeting": "土壤水研究大会",
+      "topic": "土壤水过程模拟与数据同化",
+      "paper_no": "130-018",
+      "upload_date": "2026-05-14",
+      "report_type_code": "poster",
+      "report_type_label": "墙报",
+      "speaker": "刘静静",
+      "identity": "在读硕士",
+      "institution": "河南大学",
+      "title": "Accuracy assessment of microwave-based surface soil moisture products  with multi-methods in the Yellow River Basin, China",
       "payment": "未缴费",
       "payment_paid": false
     },
@@ -1888,13 +1902,6 @@
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "中山大学地理科学与规划学院",
-      "oral": 2,
-      "poster": 0,
-      "total": 2
-    },
-    {
-      "meeting": "土壤水研究大会",
       "institution": "鲁东大学",
       "oral": 1,
       "poster": 1,
@@ -1902,10 +1909,17 @@
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "中国科学院东北地理与农业生态研究所",
+      "institution": "河南大学",
       "oral": 1,
+      "poster": 1,
+      "total": 2
+    },
+    {
+      "meeting": "土壤水研究大会",
+      "institution": "中山大学地理科学与规划学院",
+      "oral": 2,
       "poster": 0,
-      "total": 1
+      "total": 2
     },
     {
       "meeting": "土壤水研究大会",
@@ -2035,6 +2049,13 @@
     },
     {
       "meeting": "土壤水研究大会",
+      "institution": "中国科学院东北地理与农业生态研究所",
+      "oral": 1,
+      "poster": 0,
+      "total": 1
+    },
+    {
+      "meeting": "土壤水研究大会",
       "institution": "四川大学",
       "oral": 1,
       "poster": 0,
@@ -2042,21 +2063,14 @@
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "吉林建筑大学",
-      "oral": 1,
-      "poster": 0,
-      "total": 1
-    },
-    {
-      "meeting": "土壤水研究大会",
-      "institution": "河南大学",
-      "oral": 1,
-      "poster": 0,
-      "total": 1
-    },
-    {
-      "meeting": "土壤水研究大会",
       "institution": "昆明理工大学",
+      "oral": 1,
+      "poster": 0,
+      "total": 1
+    },
+    {
+      "meeting": "土壤水研究大会",
+      "institution": "广东工业大学",
       "oral": 1,
       "poster": 0,
       "total": 1
@@ -2077,14 +2091,14 @@
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "广东工业大学",
+      "institution": "山西大学",
       "oral": 1,
       "poster": 0,
       "total": 1
     },
     {
       "meeting": "土壤水研究大会",
-      "institution": "山西大学",
+      "institution": "吉林建筑大学",
       "oral": 1,
       "poster": 0,
       "total": 1
@@ -2172,8 +2186,8 @@
       "meeting": "土壤水研究大会",
       "name": "土壤水过程模拟与数据同化",
       "oral": 14,
-      "poster": 2,
-      "total": 16
+      "poster": 3,
+      "total": 17
     },
     {
       "meeting": "土壤水研究大会",
