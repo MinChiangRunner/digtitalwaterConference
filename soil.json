@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "土壤水研究大会报告查询",
-    "generated_at": "2026-05-15 17:00",
-    "source_file": "20260515170010论文导出_统计.xlsx",
+    "generated_at": "2026-05-15 20:00",
+    "source_file": "20260515200011论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "土壤水研究大会"
   },
@@ -1615,8 +1615,8 @@
       "identity": "学生",
       "institution": "长春师范大学",
       "title": "Three-Dimensional Canopy Morphology and Wind Dynamics Govern Global Rainfall Interception",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "土壤水研究大会",
