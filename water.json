@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "数字水圈论坛报告查询",
-    "generated_at": "2026-05-18 14:00",
-    "source_file": "20260518140010论文导出_统计.xlsx",
+    "generated_at": "2026-05-18 17:00",
+    "source_file": "20260518170010论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "数字水圈论坛"
   },
@@ -855,8 +855,8 @@
       "identity": "在读博士",
       "institution": "北京师范大学",
       "title": "基于功率谱密度的合成孔径雷达两阶段水体异常检测方法",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "数字水圈论坛",
@@ -1387,8 +1387,8 @@
       "identity": "无职称",
       "institution": "山东科技大学",
       "title": "风场与波浪对星载SAR多普勒频移的影响估计及其在海面流速反演中的应用",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "数字水圈论坛",
