@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "数字水圈论坛报告查询",
-    "generated_at": "2026-05-19 14:00",
-    "source_file": "20260519140010论文导出_统计.xlsx",
+    "generated_at": "2026-05-19 17:00",
+    "source_file": "20260519170009论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "数字水圈论坛"
   },
@@ -533,8 +533,8 @@
       "identity": "在读硕士",
       "institution": "河南理工大学",
       "title": "基于图卷积LSTM的缺测资料区径流模拟研究 --以黑河上游为例",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "数字水圈论坛",
@@ -1681,8 +1681,8 @@
       "identity": "副教授",
       "institution": "南开大学",
       "title": "中亚大湖区水-能-粮-生系统协同管理",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "数字水圈论坛",
