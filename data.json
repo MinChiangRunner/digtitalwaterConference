@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "第一届数字水圈学术年会暨首届土壤水研究大会",
-    "generated_at": "2026-05-19 08:00",
-    "source_file": "20260519080011论文导出_统计.xlsx",
+    "generated_at": "2026-05-19 11:00",
+    "source_file": "20260519110012论文导出_统计.xlsx",
     "include_payment": true
   },
   "summary": [
@@ -4041,11 +4041,11 @@
     "sources": [
       {
         "name": "参会人员名单",
-        "path": "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\统计\\2026-05-19-0800\\20260519080005参会人员导出.csv"
+        "path": "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\统计\\2026-05-19-1100\\20260519110006参会人员导出.csv"
       },
       {
         "name": "会议费订单",
-        "path": "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\统计\\2026-05-19-0800\\20260519080013会议费订单导出.xlsx"
+        "path": "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\统计\\2026-05-19-1100\\20260519110014会议费订单导出.xlsx"
       },
       {
         "name": "报名信息表",
@@ -4054,7 +4054,7 @@
     ]
   },
   "registered_unpaid": {
-    "source_file": "2026-05-19-0800_已注册未缴费人员清单.xlsx",
+    "source_file": "2026-05-19-1100_已注册未缴费人员清单.xlsx",
     "columns": [
       "姓名",
       "注册缴费状态",
@@ -6205,11 +6205,11 @@
     "sources": [
       {
         "name": "参会人员名单",
-        "path": "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\统计\\2026-05-19-0800\\20260519080005参会人员导出.csv"
+        "path": "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\统计\\2026-05-19-1100\\20260519110006参会人员导出.csv"
       },
       {
         "name": "会议费订单",
-        "path": "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\统计\\2026-05-19-0800\\20260519080013会议费订单导出.xlsx"
+        "path": "D:\\OneDrive\\Affairs\\AIRCAS\\2026\\2026-03-土壤水大会\\soilwater_auto_site\\统计\\2026-05-19-1100\\20260519110014会议费订单导出.xlsx"
       },
       {
         "name": "报名信息表",
