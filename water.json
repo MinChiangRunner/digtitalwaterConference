@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "数字水圈论坛报告查询",
-    "generated_at": "2026-05-20 11:00",
-    "source_file": "20260520110018论文导出_统计.xlsx",
+    "generated_at": "2026-05-20 14:00",
+    "source_file": "20260520140010论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "数字水圈论坛"
   },
@@ -869,8 +869,8 @@
       "identity": "在读硕士",
       "institution": "河南理工大学",
       "title": "黄河流域水资源压力评估及驱动因素分析",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "数字水圈论坛",
