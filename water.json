@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "数字水圈论坛报告查询",
-    "generated_at": "2026-05-20 14:00",
-    "source_file": "20260520140010论文导出_统计.xlsx",
+    "generated_at": "2026-05-20 17:00",
+    "source_file": "20260520170010论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "数字水圈论坛"
   },
@@ -1527,8 +1527,8 @@
       "identity": "副研究员",
       "institution": "国家卫星气象中心（国家空间天气监测预警中心）",
       "title": "风云气象卫星地表水热参数多源遥感观测与应用",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "数字水圈论坛",
