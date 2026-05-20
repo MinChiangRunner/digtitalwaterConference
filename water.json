@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "数字水圈论坛报告查询",
-    "generated_at": "2026-05-20 17:00",
-    "source_file": "20260520170010论文导出_统计.xlsx",
+    "generated_at": "2026-05-20 20:00",
+    "source_file": "20260520200010论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "数字水圈论坛"
   },
@@ -141,8 +141,8 @@
       "identity": "研究员",
       "institution": "中国科学院青藏高原研究所",
       "title": "北大西洋涛动对中东喜马拉雅山地夏季降水的影响",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "数字水圈论坛",
