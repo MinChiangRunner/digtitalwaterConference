@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "数字水圈论坛报告查询",
-    "generated_at": "2026-05-22 17:00",
-    "source_file": "20260522170010论文导出_统计.xlsx",
+    "generated_at": "2026-05-22 20:00",
+    "source_file": "20260522200011论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "数字水圈论坛"
   },
@@ -337,8 +337,8 @@
       "identity": "讲师",
       "institution": "东华理工大学",
       "title": "气候变暖加剧全球气象-土壤干旱共现",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "数字水圈论坛",
@@ -1639,8 +1639,8 @@
       "identity": "副教授",
       "institution": "中山大学",
       "title": "洪涝致灾农业损失模拟与预测",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "数字水圈论坛",
