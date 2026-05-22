@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "土壤水研究大会报告查询",
-    "generated_at": "2026-05-21 20:00",
-    "source_file": "20260521200009论文导出_统计.xlsx",
+    "generated_at": "2026-05-22 08:00",
+    "source_file": "20260522080010论文导出_统计.xlsx",
     "include_payment": true,
     "meeting": "土壤水研究大会"
   },
@@ -1209,8 +1209,8 @@
       "identity": "副教授",
       "institution": "中山大学",
       "title": "全球主要流域三维骤旱特征及水文气象影响分析",
-      "payment": "未缴费",
-      "payment_paid": false
+      "payment": "已缴费",
+      "payment_paid": true
     },
     {
       "meeting": "土壤水研究大会",
